@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planos de Saúde: conheça seus direitos | Medeiros &amp; Sebba Advogados</title>
+<meta name="description" content="Negativa de cobertura, reajuste abusivo, cancelamento do plano, home care, medicamentos de alto custo e terapias para TEA. Entenda seus direitos nos planos de saúde com a Medeiros & Sebba Advogados.">
+<meta name="theme-color" content="#0E2A5C">
+<meta property="og:title" content="Sua saúde também é um direito! | Medeiros & Sebba Advogados">
+<meta property="og:description" content="Conheça seus direitos nos planos de saúde. Orientação jurídica ética, humana e individualizada.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/og-planos-de-saude.jpg">
+<link rel="icon" href="assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Montserrat:wght@600;700;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<!--
+  ==========================================================
+  MEDEIROS & SEBBA ADVOGADOS — Área: Saúde / Planos de Saúde
+  Pasta sugerida: C:\sites\MedeirosSebba\atuacao\saude\palno de saude\
+  Imagens (opcionais) em  .\assets\
+    - assets/logo-medeiros-sebba.png   (logo do escritório)
+    - assets/hero-familia.jpg          (foto da família do cartaz, ~900x900)
+    - assets/cartao-plano.jpg          (foto do cartão/estetoscópio, ~900x600)
+    - assets/og-planos-de-saude.jpg    (imagem para compartilhamento, 1200x630)
+  Se alguma imagem não existir, a página mostra um fallback elegante.
+
+  >>> AJUSTE AQUI os dados de contato (procure por "CONFIG") <<<
+  ==========================================================
+-->
+
+<style>
+:root{
+  --navy:#0E2A5C;
+  --navy-2:#13366F;
+  --blue:#1F6FD1;
+  --blue-soft:#E8F1FD;
+  --green:#14955A;
+  --green-2:#1DB56E;
+  --green-soft:#E6F6EE;
+  --yellow:#F5B301;
+  --yellow-soft:#FFF6DA;
+  --purple:#6E3FC9;
+  --red:#E0393E;
+  --teal:#0F7C74;
+  --ink:#1B2B45;
+  --muted:#5A6B86;
+  --line:#E3E9F2;
+  --bg:#FBFCFE;
+  --card:#FFFFFF;
+  --radius:20px;
+  --shadow:0 10px 30px rgba(14,42,92,.08);
+  --shadow-lg:0 24px 60px rgba(14,42,92,.14);
+  --script:'Kalam',cursive;
+  --display:'Montserrat',system-ui,sans-serif;
+  --body:'Nunito',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.container{width:min(1180px,100% - 32px);margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ---------- utilidades visuais ---------- */
+.script{font-family:var(--script);font-weight:700}
+.brush{position:relative;display:inline-block}
+.brush::after{content:"";position:absolute;left:-2%;right:-2%;bottom:-.12em;height:.32em;background:var(--yellow);border-radius:40% 60% 50% 50%/60% 40% 60% 40%;z-index:-1;transform:rotate(-1.2deg);opacity:.9}
+.stroke{display:block;height:6px;width:120px;border-radius:6px;margin:14px auto 0;background:linear-gradient(90deg,var(--c,var(--blue)) 0 70%,transparent 70%)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:800;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);background:var(--blue-soft);padding:7px 14px;border-radius:99px}
+.section{padding:96px 0;position:relative}
+.section-head{text-align:center;max-width:760px;margin:0 auto 52px}
+.section-head h2{font-family:var(--display);font-weight:900;font-size:clamp(1.8rem,3.6vw,2.7rem);line-height:1.15;color:var(--navy);margin:16px 0 14px;letter-spacing:-.01em}
+.section-head p{color:var(--muted);font-size:1.08rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--display);font-weight:800;font-size:.98rem;padding:16px 26px;border-radius:14px;transition:transform .2s,box-shadow .2s,background .2s;line-height:1.1}
+.btn:hover{transform:translateY(-2px)}
+.btn-wa{background:linear-gradient(135deg,var(--green-2),var(--green));color:#fff;box-shadow:0 10px 24px rgba(20,149,90,.35)}
+.btn-wa:hover{box-shadow:0 14px 30px rgba(20,149,90,.45)}
+.btn-ghost{background:#fff;color:var(--navy);border:2px solid var(--line)}
+.btn-ghost:hover{border-color:var(--blue);color:var(--blue)}
+.btn-yellow{background:var(--yellow);color:var(--navy);box-shadow:0 10px 24px rgba(245,179,1,.35)}
+.btn svg{width:20px;height:20px;flex:none}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+
+/* ---------- topo ---------- */
+.topbar{background:var(--navy);color:#cfe0ff;font-size:.85rem}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:8px 0;flex-wrap:wrap}
+.topbar span{display:inline-flex;align-items:center;gap:8px}
+.topbar b{color:#fff}
+header.site{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+header.site .container{display:flex;align-items:center;justify-content:space-between;gap:20px;height:78px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{height:52px;width:auto}
+.logo-text{display:flex;align-items:center;gap:12px;color:var(--navy)}
+.logo-mark{font-family:'Times New Roman',Georgia,serif;font-size:2.4rem;font-weight:700;letter-spacing:-.06em;line-height:1}
+.logo-sep{width:1.5px;height:40px;background:var(--navy);opacity:.6}
+.logo-name{font-family:Georgia,'Times New Roman',serif;line-height:1.05;font-size:1.05rem}
+.logo-name small{display:block;font-family:var(--body);font-size:.6rem;letter-spacing:.38em;opacity:.75;margin-top:4px}
+nav.main{display:flex;gap:26px;font-family:var(--display);font-weight:700;font-size:.9rem;color:var(--navy)}
+nav.main a{position:relative;padding:6px 0}
+nav.main a::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--yellow);border-radius:3px;transition:width .25s}
+nav.main a:hover::after{width:100%}
+.header-cta{padding:12px 18px;font-size:.88rem}
+.menu-btn{display:none;width:44px;height:44px;border-radius:12px;border:2px solid var(--line);align-items:center;justify-content:center}
+.menu-btn svg{width:22px;height:22px}
+@media (max-width:980px){
+  nav.main{position:fixed;inset:78px 0 auto 0;background:#fff;flex-direction:column;gap:0;padding:8px 16px 20px;border-bottom:1px solid var(--line);box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .3s;z-index:-1}
+  nav.main.open{transform:none}
+  nav.main a{padding:14px 4px;border-bottom:1px solid var(--line)}
+  .menu-btn{display:inline-flex}
+  .header-cta{display:none}
+  .topbar .hide-sm{display:none}
+}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:64px 0 120px;overflow:hidden;background:
+  radial-gradient(1200px 500px at 85% -10%,#FFF3C9 0,transparent 60%),
+  radial-gradient(900px 500px at -10% 30%,#E3EEFF 0,transparent 60%),
+  linear-gradient(180deg,#fff, #F6F9FF)}
+.hero .container{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero h1{margin:18px 0 6px}
+.hero .script-title{display:block;font-family:var(--script);font-size:clamp(2.4rem,5.6vw,4.1rem);line-height:1.05;color:var(--navy);transform:rotate(-3deg);transform-origin:left;margin-bottom:22px}
+.hero .script-title .u{background:linear-gradient(transparent 72%,var(--yellow) 72% 90%,transparent 90%)}
+.hero .lead-small{display:block;font-family:var(--display);font-weight:700;font-size:clamp(1.15rem,2vw,1.45rem);color:var(--navy-2)}
+.hero .big{display:block;font-family:var(--display);font-weight:900;line-height:.95;letter-spacing:-.02em;font-size:clamp(2.6rem,6.4vw,4.8rem);color:var(--navy)}
+.hero .big .g{background:linear-gradient(135deg,#1DB56E 0%,#0F8A4F 50%,#1F6FD1 120%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.intro{font-size:1.12rem;color:var(--muted);max-width:560px;margin:22px 0 30px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+.trust{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;color:var(--navy);font-weight:700;font-size:.93rem}
+.trust span{display:inline-flex;align-items:center;gap:8px}
+.trust svg{width:20px;height:20px;color:var(--green)}
+.hero-visual{position:relative;aspect-ratio:1/1;max-width:560px;margin-left:auto;width:100%}
+.hero-photo{position:absolute;inset:0;border-radius:44% 56% 52% 48%/48% 42% 58% 52%;overflow:hidden;background:
+  radial-gradient(circle at 30% 30%,#FFE9A8,transparent 55%),
+  radial-gradient(circle at 75% 70%,#BFE8D2,transparent 55%),
+  linear-gradient(135deg,#DCEBFF,#F3F8FF);box-shadow:var(--shadow-lg);border:8px solid #fff}
+.hero-photo img{width:100%;height:100%;object-fit:cover}
+.hero-photo .fallback{position:absolute;inset:0;display:grid;place-items:center}
+.hero-photo .fallback svg{width:58%;filter:drop-shadow(0 18px 30px rgba(14,42,92,.25))}
+.hero-photo.has-img .fallback{display:none}
+.float-card{position:absolute;background:#fff;border-radius:16px;box-shadow:var(--shadow-lg);padding:14px 16px;display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy);font-size:.92rem;animation:bob 6s ease-in-out infinite}
+.float-card .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;flex:none}
+.float-card .ic svg{width:22px;height:22px}
+.float-card small{display:block;font-weight:600;color:var(--muted);font-size:.78rem}
+.fc1{left:-18px;top:14%}
+.fc2{right:-10px;bottom:16%;animation-delay:-3s}
+.hero-tag{position:absolute;right:4%;top:2%;font-family:var(--script);color:var(--navy);font-size:1.35rem;line-height:1.05;transform:rotate(12deg);text-align:center}
+.hero-tag::after{content:"";display:block;height:5px;width:70%;margin:6px auto 0;background:var(--yellow);border-radius:5px}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.wave{position:absolute;left:0;right:0;bottom:-1px;line-height:0}
+.wave svg{width:100%;height:90px}
+@media (max-width:980px){
+  .hero{padding:40px 0 100px}
+  .hero .container{grid-template-columns:1fr}
+  .hero-visual{max-width:440px;margin:10px auto 0}
+  .fc1{left:0}.fc2{right:0}
+  .hero-tag{display:none}
+}
+
+/* ---------- direitos (cards do cartaz) ---------- */
+.rights{background:#fff}
+.rights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.right{padding:34px 30px 38px;text-align:center;position:relative}
+.right:not(:nth-child(3n))::after{content:"";position:absolute;right:0;top:15%;bottom:15%;width:1px;background:linear-gradient(transparent,var(--line),transparent)}
+.right:nth-child(-n+3){border-bottom:1px dashed var(--line)}
+.badge{width:96px;height:96px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;color:#fff;background:var(--c);position:relative;box-shadow:0 12px 26px color-mix(in srgb,var(--c) 35%,transparent);transition:transform .3s}
+.badge::before{content:"";position:absolute;inset:-7px;border-radius:50%;border:3px dashed color-mix(in srgb,var(--c) 40%,transparent);animation:spin 26s linear infinite}
+.right:hover .badge{transform:scale(1.06) rotate(-4deg)}
+.badge svg{width:44px;height:44px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.right h3{font-family:var(--display);font-weight:900;font-size:1.22rem;color:var(--navy);line-height:1.2;text-transform:uppercase;letter-spacing:.01em}
+.right p{color:var(--muted);margin-top:10px;font-size:1rem}
+@media (max-width:900px){.rights-grid{grid-template-columns:1fr 1fr}.right::after{display:none}.right{border-bottom:1px dashed var(--line)}}
+@media (max-width:600px){.rights-grid{grid-template-columns:1fr}}
+
+/* ---------- situações / atuação ---------- */
+.situations{background:linear-gradient(180deg,#F6F9FF,#fff)}
+.tabs{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:34px}
+.tab{padding:11px 20px;border-radius:99px;font-family:var(--display);font-weight:800;font-size:.9rem;color:var(--navy);background:#fff;border:2px solid var(--line);transition:.2s}
+.tab[aria-selected="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.tab:hover{border-color:var(--navy)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.case{background:#fff;border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);border:1px solid var(--line);position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s;display:flex;flex-direction:column}
+.case::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--c,var(--blue))}
+.case:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.case .ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:color-mix(in srgb,var(--c,var(--blue)) 12%,#fff);color:var(--c,var(--blue));margin-bottom:16px}
+.case .ic svg{width:26px;height:26px}
+.case h3{font-family:var(--display);font-weight:800;font-size:1.1rem;color:var(--navy);line-height:1.3;margin-bottom:8px}
+.case p{color:var(--muted);font-size:.97rem;flex:1}
+.case .more{margin-top:16px;font-family:var(--display);font-weight:800;font-size:.86rem;color:var(--c,var(--blue));display:inline-flex;align-items:center;gap:6px}
+.case .more:hover{gap:10px}
+.case[hidden]{display:none}
+@media (max-width:980px){.cards{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.cards{grid-template-columns:1fr}}
+
+/* ---------- avaliador ---------- */
+.quiz-wrap{background:var(--navy);color:#fff;overflow:hidden}
+.quiz-wrap::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(31,111,209,.55),transparent 65%);right:-160px;top:-160px}
+.quiz-wrap::after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(29,181,110,.35),transparent 65%);left:-140px;bottom:-160px}
+.quiz-wrap .container{position:relative;z-index:1;display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.quiz-wrap h2{font-family:var(--display);font-weight:900;font-size:clamp(1.8rem,3.4vw,2.5rem);line-height:1.15;margin:16px 0}
+.quiz-wrap .eyebrow{background:rgba(255,255,255,.12);color:#FFD866}
+.quiz-wrap p.sub{color:#C9D8F5}
+.quiz-wrap .script{color:#FFD866;font-size:1.6rem;display:block;margin-top:22px;transform:rotate(-2deg)}
+.quiz{background:#fff;color:var(--ink);border-radius:24px;padding:30px;box-shadow:0 30px 70px rgba(0,0,0,.3)}
+.quiz-step{display:none}
+.quiz-step.active{display:block;animation:fade .35s ease}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.quiz .progress{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin-bottom:22px}
+.quiz .progress i{display:block;height:100%;width:33%;background:linear-gradient(90deg,var(--blue),var(--green-2));transition:width .35s}
+.quiz h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.18rem;margin-bottom:16px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{text-align:left;padding:14px 16px;border-radius:14px;border:2px solid var(--line);font-weight:700;color:var(--navy);display:flex;gap:10px;align-items:center;transition:.2s;background:#fff}
+.opt:hover{border-color:var(--blue);background:var(--blue-soft)}
+.opt.sel{border-color:var(--green);background:var(--green-soft)}
+.opt .dot{width:18px;height:18px;border-radius:50%;border:2px solid currentColor;flex:none;opacity:.5}
+.opt.sel .dot{background:var(--green);border-color:var(--green);opacity:1;box-shadow:inset 0 0 0 3px #fff}
+.quiz-nav{display:flex;justify-content:space-between;margin-top:20px;gap:10px}
+.quiz-result{background:var(--yellow-soft);border:2px solid #F7DA85;border-radius:16px;padding:20px;margin-bottom:18px}
+.quiz-result h4{font-family:var(--display);font-weight:900;color:var(--navy);font-size:1.15rem;margin-bottom:6px}
+.quiz-result ul{margin:10px 0 0 18px;color:var(--ink)}
+.quiz-result li{margin:4px 0}
+.quiz small.note{display:block;color:var(--muted);font-size:.8rem;margin-top:12px}
+@media (max-width:980px){.quiz-wrap .container{grid-template-columns:1fr}}
+@media (max-width:520px){.opts{grid-template-columns:1fr}}
+
+/* ---------- passo a passo ---------- */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;counter-reset:s;position:relative}
+.steps::before{content:"";position:absolute;top:38px;left:8%;right:8%;height:3px;background:repeating-linear-gradient(90deg,var(--yellow) 0 12px,transparent 12px 22px)}
+.step{text-align:center;position:relative}
+.step .n{width:76px;height:76px;border-radius:50%;margin:0 auto 16px;display:grid;place-items:center;background:#fff;border:4px solid var(--c);color:var(--c);font-family:var(--display);font-weight:900;font-size:1.6rem;box-shadow:var(--shadow);position:relative;z-index:1}
+.step h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.02rem;line-height:1.3;margin-bottom:6px}
+.step p{color:var(--muted);font-size:.93rem}
+@media (max-width:980px){.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}.step{display:grid;grid-template-columns:76px 1fr;gap:16px;text-align:left;align-items:start}.step .n{margin:0}}
+
+/* ---------- prazos ANS ---------- */
+.deadlines{background:linear-gradient(180deg,#fff,#F6F9FF)}
+.dl-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:start}
+.dl-list{background:#fff;border-radius:24px;box-shadow:var(--shadow);border:1px solid var(--line);overflow:hidden}
+.dl-row{display:grid;grid-template-columns:1fr 150px;align-items:center;gap:16px;padding:16px 22px;border-bottom:1px solid var(--line)}
+.dl-row:last-child{border-bottom:0}
+.dl-row b{color:var(--navy);font-weight:800}
+.dl-row span{color:var(--muted);font-size:.9rem;display:block}
+.dl-bar{position:relative;height:34px;background:#F1F5FB;border-radius:10px;overflow:hidden}
+.dl-bar i{position:absolute;inset:0 auto 0 0;width:0;background:var(--c);border-radius:10px;transition:width 1.2s cubic-bezier(.2,.8,.2,1)}
+.dl-bar em{position:absolute;inset:0;display:grid;place-items:center;font-style:normal;font-family:var(--display);font-weight:900;font-size:.88rem;color:var(--navy)}
+.dl-side{background:var(--navy);color:#fff;border-radius:24px;padding:30px;position:relative;overflow:hidden}
+.dl-side h3{font-family:var(--display);font-weight:900;font-size:1.3rem;margin-bottom:12px}
+.dl-side p{color:#C9D8F5;font-size:.98rem}
+.dl-side ol{margin:16px 0 0 0;list-style:none;counter-reset:d}
+.dl-side li{counter-increment:d;display:flex;gap:12px;margin:12px 0;color:#E6EEFF}
+.dl-side li::before{content:counter(d);width:28px;height:28px;border-radius:50%;background:var(--yellow);color:var(--navy);font-weight:900;display:grid;place-items:center;flex:none;font-family:var(--display);font-size:.85rem}
+.dl-side .phone{display:flex;align-items:center;gap:12px;margin-top:22px;background:rgba(255,255,255,.1);padding:14px 16px;border-radius:14px}
+.dl-side .phone b{font-family:var(--display);font-size:1.15rem}
+.dl-side .phone svg{width:28px;height:28px;color:#FFD866}
+.src{font-size:.8rem;color:var(--muted);margin-top:12px}
+@media (max-width:980px){.dl-grid{grid-template-columns:1fr}}
+@media (max-width:520px){.dl-row{grid-template-columns:1fr}}
+
+/* ---------- legislação ---------- */
+.laws{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.law{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow);border-top:5px solid var(--c)}
+.law .tag{font-family:var(--display);font-weight:900;color:var(--c);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+.law h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.02rem;margin:6px 0 8px;line-height:1.3}
+.law p{color:var(--muted);font-size:.93rem}
+.highlight-law{margin-top:26px;background:linear-gradient(135deg,var(--yellow-soft),#fff);border:2px solid #F7DA85;border-radius:22px;padding:28px;display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:start}
+.highlight-law .ic{width:64px;height:64px;border-radius:18px;background:var(--yellow);display:grid;place-items:center;color:var(--navy)}
+.highlight-law .ic svg{width:32px;height:32px}
+.highlight-law h3{font-family:var(--display);font-weight:900;color:var(--navy);font-size:1.2rem;margin-bottom:8px}
+.highlight-law ol{margin:12px 0 0 20px;color:var(--ink)}
+.highlight-law li{margin:5px 0}
+@media (max-width:980px){.laws{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.laws{grid-template-columns:1fr}.highlight-law{grid-template-columns:1fr}}
+
+/* ---------- documentos ---------- */
+.docs-wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+.docs-visual{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/3.4;background:
+  radial-gradient(circle at 20% 20%,#FFE9A8,transparent 50%),
+  linear-gradient(135deg,var(--navy),var(--blue));box-shadow:var(--shadow-lg)}
+.docs-visual img{width:100%;height:100%;object-fit:cover}
+.docs-visual .fallback{position:absolute;inset:0;display:grid;place-items:center}
+.docs-visual.has-img .fallback{display:none}
+.docs-visual .stamp{position:absolute;left:20px;bottom:20px;right:20px;background:rgba(255,255,255,.95);border-radius:16px;padding:16px 18px;display:flex;align-items:center;gap:14px}
+.docs-visual .stamp b{font-family:var(--display);color:var(--navy);font-size:1rem;display:block}
+.docs-visual .stamp small{color:var(--muted)}
+.ring{--p:0;width:58px;height:58px;border-radius:50%;flex:none;display:grid;place-items:center;background:conic-gradient(var(--green) calc(var(--p)*1%),#E3E9F2 0);transition:background .4s}
+.ring span{width:44px;height:44px;border-radius:50%;background:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:.82rem;color:var(--navy)}
+.checklist{display:grid;gap:10px;margin-top:24px}
+.chk{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border-radius:14px;border:2px solid var(--line);background:#fff;cursor:pointer;transition:.2s}
+.chk:hover{border-color:var(--blue)}
+.chk input{position:absolute;opacity:0}
+.chk .box{width:24px;height:24px;border-radius:7px;border:2px solid #B9C6DA;flex:none;display:grid;place-items:center;margin-top:2px;transition:.2s}
+.chk .box svg{width:16px;height:16px;color:#fff;opacity:0}
+.chk input:checked + .box{background:var(--green);border-color:var(--green)}
+.chk input:checked + .box svg{opacity:1}
+.chk input:focus-visible + .box{outline:3px solid var(--blue);outline-offset:2px}
+.chk b{color:var(--navy);display:block}
+.chk small{color:var(--muted);font-size:.88rem}
+@media (max-width:980px){.docs-wrap{grid-template-columns:1fr}}
+
+/* ---------- como atendemos ---------- */
+.how{background:#fff}
+.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.how-card{border-radius:22px;padding:28px 24px;background:var(--bg);border:1px solid var(--line);position:relative}
+.how-card .num{font-family:var(--script);font-size:3rem;line-height:1;color:var(--c);opacity:.9}
+.how-card h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.08rem;margin:8px 0}
+.how-card p{color:var(--muted);font-size:.95rem}
+.values{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:40px}
+.values span{display:inline-flex;align-items:center;gap:8px;background:var(--green-soft);color:#0B6B40;font-weight:800;padding:10px 16px;border-radius:99px;font-size:.92rem}
+.values svg{width:18px;height:18px}
+@media (max-width:980px){.how-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.how-grid{grid-template-columns:1fr}}
+
+/* ---------- FAQ ---------- */
+.faq{max-width:900px;margin:0 auto;display:grid;gap:12px}
+.qa{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 4px 14px rgba(14,42,92,.04);overflow:hidden}
+.qa button{width:100%;text-align:left;padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.02rem}
+.qa button .pm{width:34px;height:34px;border-radius:50%;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center;flex:none;transition:transform .3s,background .3s}
+.qa button[aria-expanded="true"] .pm{transform:rotate(45deg);background:var(--yellow);color:var(--navy)}
+.qa .ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s}
+.qa .ans>div{overflow:hidden}
+.qa .ans p{padding:0 22px 20px;color:var(--muted)}
+.qa button[aria-expanded="true"] + .ans{grid-template-rows:1fr}
+
+/* ---------- CTA final / contato ---------- */
+.cta{background:linear-gradient(135deg,#0B2350,var(--navy) 50%,#123F86);color:#fff;overflow:hidden}
+.cta::before{content:"";position:absolute;inset:auto -10% -40% -10%;height:70%;background:
+  radial-gradient(closest-side,rgba(29,181,110,.35),transparent),
+  radial-gradient(closest-side at 80% 50%,rgba(245,179,1,.25),transparent)}
+.cta .container{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.cta .script{font-size:clamp(2.4rem,5vw,3.6rem);line-height:1.05;display:block;transform:rotate(-4deg);transform-origin:left;color:#fff}
+.cta .script .y{display:inline-block;border-bottom:6px solid var(--yellow);padding-bottom:2px}
+.cta p{color:#C9D8F5;margin-top:22px;font-size:1.06rem;max-width:520px}
+.cta .contacts{display:grid;gap:12px;margin-top:26px}
+.cta .contacts a,.cta .contacts div{display:flex;gap:12px;align-items:center;color:#E6EEFF;font-weight:700}
+.cta .contacts svg{width:22px;height:22px;color:#FFD866;flex:none}
+form.contact{background:#fff;color:var(--ink);border-radius:24px;padding:30px;box-shadow:0 30px 70px rgba(0,0,0,.3)}
+form.contact h3{font-family:var(--display);font-weight:900;color:var(--navy);font-size:1.3rem}
+form.contact .hint{color:var(--muted);font-size:.92rem;margin:4px 0 18px}
+.field{display:grid;gap:6px;margin-bottom:14px}
+.field label{font-weight:800;color:var(--navy);font-size:.9rem}
+.field input,.field select,.field textarea{font:inherit;font-size:1rem;padding:13px 14px;border-radius:12px;border:2px solid var(--line);background:#FBFCFE;color:var(--ink);transition:border .2s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--blue);background:#fff}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:.84rem;color:var(--muted);margin:6px 0 16px}
+.consent input{margin-top:4px;accent-color:var(--green)}
+form.contact .btn{width:100%}
+@media (max-width:980px){.cta .container{grid-template-columns:1fr}}
+@media (max-width:520px){.row2{grid-template-columns:1fr}}
+
+/* ---------- rodapé ---------- */
+footer{background:#081A3A;color:#AFC1E0;padding:56px 0 26px;font-size:.93rem}
+.f-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:34px}
+footer h4{font-family:var(--display);color:#fff;font-weight:800;font-size:.95rem;margin-bottom:14px;letter-spacing:.04em;text-transform:uppercase}
+footer ul{list-style:none;display:grid;gap:8px}
+footer a:hover{color:#fff}
+footer .logo-text{color:#fff}
+footer .logo-sep{background:#fff}
+.f-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:40px;padding-top:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.82rem}
+.disclaimer{margin-top:16px;font-size:.82rem;line-height:1.55;color:#8EA3C7;max-width:520px}
+@media (max-width:900px){.f-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.f-grid{grid-template-columns:1fr}}
+
+/* ---------- WhatsApp flutuante ---------- */
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:62px;height:62px;border-radius:50%;background:#25D366;color:#fff;display:grid;place-items:center;box-shadow:0 12px 30px rgba(37,211,102,.45);transition:transform .2s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:32px;height:32px}
+.wa-float::before{content:"";position:absolute;inset:0;border-radius:50%;border:3px solid #25D366;animation:pulse 2.2s infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.6);opacity:0}}
+.wa-bubble{position:fixed;right:92px;bottom:30px;z-index:60;background:#fff;color:var(--navy);font-weight:800;padding:10px 14px;border-radius:14px;box-shadow:var(--shadow-lg);font-size:.88rem;opacity:0;transform:translateX(10px);transition:.4s;pointer-events:none}
+.wa-bubble.show{opacity:1;transform:none}
+@media (max-width:520px){.wa-bubble{display:none}}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LegalService",
+  "name":"Medeiros & Sebba Advogados",
+  "description":"Orientação e atuação jurídica em Direito da Saúde e planos de saúde.",
+  "areaServed":"BR",
+  "knowsAbout":["Planos de saúde","Negativa de cobertura","Reajuste abusivo","Direito da Saúde"]
+}
+</script>
+</head>
+<body>
+
+<!-- ============ TOPO ============ -->
+<div class="topbar">
+  <div class="container">
+    <span>💙 <b>Atendimento humanizado</b> — presencial e online em todo o Brasil</span>
+    <span class="hide-sm">Seg. a sex. · 8h às 18h</span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="container">
+    <a href="#inicio" class="logo" aria-label="Medeiros & Sebba Advogados — início">
+      <img src="assets/logo-medeiros-sebba.png" alt="Medeiros & Sebba Advogados" onerror="this.replaceWith(document.getElementById('logoTpl').content.cloneNode(true))">
+    </a>
+    <nav class="main" id="mainNav" aria-label="Principal">
+      <a href="#direitos">Seus direitos</a>
+      <a href="#situacoes">Como ajudamos</a>
+      <a href="#avaliacao">Avalie seu caso</a>
+      <a href="#prazos">Prazos ANS</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn btn-wa header-cta" data-wa="Olá! Vim pela página de Planos de Saúde e gostaria de uma orientação." href="#">
+      <svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg> Fale conosco
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<template id="logoTpl">
+  <span class="logo-text">
+    <span class="logo-mark">MS</span><span class="logo-sep"></span>
+    <span class="logo-name">MEDEIROS<br>&amp; SEBBA<small>ADVOGADOS</small></span>
+  </span>
+</template>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="container">
+    <div>
+      <span class="eyebrow">⚕️ Direito da Saúde · Planos de Saúde</span>
+      <h1>
+        <span class="script-title">Sua saúde também é <span class="u">um direito!</span></span>
+        <span class="lead-small">Conheça os seus direitos nos</span>
+        <span class="big">PLANOS DE <span class="g">SAÚDE</span></span>
+      </h1>
+      <p class="intro">O plano negou um exame, cirurgia, medicamento ou terapia? O reajuste veio alto demais ou o contrato foi cancelado? Você não precisa enfrentar isso sozinho. Explicamos seus direitos com clareza e analisamos o seu caso com atenção individual.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-wa" data-wa="Olá! Tive um problema com meu plano de saúde e gostaria que analisassem meu caso." href="#">
+          <svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg> Quero falar com a equipe
+        </a>
+        <a class="btn btn-ghost" href="#avaliacao">Entender meu caso em 1 minuto →</a>
+      </div>
+      <div class="trust">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Análise individual</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Atendimento online</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Sigilo e acolhimento</span>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-photo" id="heroPhoto">
+        <img src="assets/hero-familia.jpg" alt="" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+        <div class="fallback">
+          <svg viewBox="0 0 200 180"><defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F6FD1"/><stop offset=".55" stop-color="#14955A"/><stop offset="1" stop-color="#1DB56E"/></linearGradient></defs>
+            <path d="M100 170C40 125 8 92 8 55 8 27 30 8 56 8c18 0 33 9 44 24C111 17 126 8 144 8c26 0 48 19 48 47 0 37-32 70-92 115z" fill="url(#hg)"/>
+            <path d="M30 80h40l10-22 16 46 14-34 8 10h52" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M40 160c60 10 110-6 150-40" fill="none" stroke="#F5B301" stroke-width="8" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="float-card fc1"><span class="ic" style="background:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><use href="#i-shield"/></svg></span><span>Seus direitos<small>Lei 9.656/98 e CDC</small></span></div>
+      <div class="float-card fc2"><span class="ic" style="background:var(--blue)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><use href="#i-heart"/></svg></span><span>Atendimento humano<small>Do primeiro contato ao fim</small></span></div>
+      <div class="hero-tag">Mais saúde,<br>mais segurança,<br>mais você!</div>
+    </div>
+  </div>
+  <div class="wave"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 50c240 40 480 40 720 10s480-40 720 0v30H0z" fill="#fff"/><path d="M0 70c300-30 560 20 820 5s420-40 620-15" fill="none" stroke="#F5B301" stroke-width="4" opacity=".7"/></svg></div>
+</section>
+
+<!-- ============ 6 DIREITOS ============ -->
+<section class="section rights" id="direitos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Fique por dentro</span>
+      <h2>Direitos que todo beneficiário <span class="brush">precisa conhecer</span></h2>
+      <p>O contrato de plano de saúde é regido pela Lei dos Planos de Saúde (Lei 9.656/98), pelas normas da ANS e pelo Código de Defesa do Consumidor.</p>
+    </div>
+    <div class="rights-grid">
+      <article class="right reveal" style="--c:var(--blue)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-steth"/></svg></div>
+        <h3>Atendimento<br>garantido</h3>
+        <p>Urgência e emergência têm carência máxima de 24 horas. Consultas, exames e cirurgias devem ser oferecidos dentro dos prazos máximos da ANS.</p>
+        <span class="stroke" style="--c:var(--blue)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--green)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-doctor"/></svg></div>
+        <h3>Equipe e rede<br>qualificadas</h3>
+        <p>A operadora deve manter rede credenciada adequada. Se não houver prestador disponível, ela precisa garantir o atendimento por outro meio.</p>
+        <span class="stroke" style="--c:var(--green)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--yellow)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-doc"/></svg></div>
+        <h3>Cobertura<br>do contrato</h3>
+        <p>O plano deve cumprir o que foi contratado e o rol de procedimentos da ANS, incluindo exames, consultas, internações e tratamentos.</p>
+        <span class="stroke" style="--c:var(--yellow)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--purple)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-pill"/></svg></div>
+        <h3>Medicamentos<br>e tratamentos</h3>
+        <p>Inclui quimioterapia (inclusive oral), terapias e medicamentos previstos no rol. Em situações específicas, tratamentos fora do rol também podem ser exigidos.</p>
+        <span class="stroke" style="--c:var(--purple)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--red)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-coin"/></svg></div>
+        <h3>Reajuste<br>justo</h3>
+        <p>Reajustes devem seguir as regras da ANS, ter cálculo transparente e ser informados com antecedência. Após os 60 anos não há reajuste por faixa etária.</p>
+        <span class="stroke" style="--c:var(--red)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--teal)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-people"/></svg></div>
+        <h3>Rescisão e<br>cancelamento</h3>
+        <p>Você tem direito a informações claras e à permanência no plano nas situações previstas em lei — inclusive continuidade do tratamento em curso.</p>
+        <span class="stroke" style="--c:var(--teal)"></span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SITUAÇÕES ============ -->
+<section class="section situations" id="situacoes">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Como podemos ajudar</span>
+      <h2>Situações em que você <span class="brush">pode ter direitos</span></h2>
+      <p>Cada caso é único. Abaixo, os problemas mais comuns que analisamos — escolha um tema para filtrar.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Filtrar situações">
+      <button class="tab" role="tab" aria-selected="true" data-filter="all">Todos</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="cobertura">Negativas de cobertura</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="valores">Reajustes e valores</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="contrato">Contrato e cancelamento</button>
+    </div>
+
+    <div class="cards">
+      <article class="case reveal" data-cat="cobertura" style="--c:var(--blue)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-scalpel"/></svg></div>
+        <h3>Cirurgias, exames e internações negados</h3>
+        <p>Recusa de procedimentos indicados pelo médico, materiais cirúrgicos (órteses, próteses, stents) e exames de alta complexidade.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano negou uma cirurgia/exame. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="cobertura" style="--c:var(--purple)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-pill"/></svg></div>
+        <h3>Medicamentos de alto custo e oncológicos</h3>
+        <p>Quimioterapia oral e venosa, imunobiológicos e imunoterapia. Negativas por “uso domiciliar” ou “fora do rol” merecem análise cuidadosa.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano negou um medicamento de alto custo. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="cobertura" style="--c:var(--green)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-puzzle"/></svg></div>
+        <h3>Terapias para TEA e desenvolvimento</h3>
+        <p>Desde 2022, as normas da ANS preveem cobertura dos métodos indicados pelo médico e retiraram o limite de sessões com psicólogos, fonoaudiólogos, terapeutas ocupacionais e fisioterapeutas.</p>
+        <a class="more" href="#" data-wa="Olá! Preciso de orientação sobre terapias para TEA pelo plano de saúde.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="cobertura" style="--c:var(--teal)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-home"/></svg></div>
+        <h3>Home care e internação domiciliar</h3>
+        <p>Quando há indicação médica de internação domiciliar em substituição à hospitalar, a recusa ou a redução do suporte pode ser questionada.</p>
+        <a class="more" href="#" data-wa="Olá! Preciso de orientação sobre home care pelo plano de saúde.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="cobertura" style="--c:var(--red)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-siren"/></svg></div>
+        <h3>Urgência negada por “carência”</h3>
+        <p>Em urgência e emergência, a carência máxima é de 24 horas após a contratação. Negativas baseadas em carência maior precisam ser revistas.</p>
+        <a class="more" href="#" data-wa="Olá! Tive atendimento de urgência negado por carência. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="cobertura" style="--c:var(--yellow)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-ribbon"/></svg></div>
+        <h3>Cirurgias reparadoras</h3>
+        <p>Reconstrução mamária após câncer e cirurgias reparadoras pós-bariátrica com finalidade funcional não se confundem com procedimentos estéticos.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano negou uma cirurgia reparadora. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="valores" style="--c:var(--red)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-chart"/></svg></div>
+        <h3>Reajuste abusivo</h3>
+        <p>Aumentos por sinistralidade sem memória de cálculo, reajustes muito acima do índice da ANS e contratos “falsos coletivos” com poucas vidas.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano teve um reajuste muito alto. Gostaria de uma análise.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="valores" style="--c:var(--purple)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-cake"/></svg></div>
+        <h3>Reajuste por idade (59 anos ou mais)</h3>
+        <p>O Estatuto da Pessoa Idosa veda a discriminação por idade. Percentuais desproporcionais na última faixa etária podem ser revistos.</p>
+        <a class="more" href="#" data-wa="Olá! Tive reajuste por faixa etária no plano. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="valores" style="--c:var(--blue)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-refund"/></svg></div>
+        <h3>Reembolso e coparticipação</h3>
+        <p>Reembolso negado ou calculado de forma obscura, e cobranças de coparticipação que inviabilizam o tratamento.</p>
+        <a class="more" href="#" data-wa="Olá! Tenho um problema com reembolso/coparticipação do plano.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="contrato" style="--c:var(--teal)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-x"/></svg></div>
+        <h3>Cancelamento do plano</h3>
+        <p>Plano individual só pode ser cancelado por fraude ou inadimplência acima de 60 dias, com notificação prévia. Coletivos também têm limites.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano de saúde foi cancelado. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="contrato" style="--c:var(--green)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-hospital"/></svg></div>
+        <h3>Descredenciamento durante o tratamento</h3>
+        <p>Saída de hospital ou clínica da rede no meio de um tratamento oncológico, gestação ou internação exige regras de substituição e aviso.</p>
+        <a class="more" href="#" data-wa="Olá! Meu hospital/clínica foi descredenciado durante o tratamento.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="contrato" style="--c:var(--yellow)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-briefcase"/></svg></div>
+        <h3>Aposentados, demitidos e dependentes</h3>
+        <p>Permanência no plano empresarial após demissão ou aposentadoria, manutenção de dependentes após falecimento do titular e portabilidade sem nova carência.</p>
+        <a class="more" href="#" data-wa="Olá! Preciso de orientação sobre permanência no plano (aposentadoria/demissão/dependentes).">Falar sobre isso →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AVALIADOR ============ -->
+<section class="section quiz-wrap" id="avaliacao">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow">Ferramenta gratuita</span>
+      <h2>Entenda seu caso em 3 perguntas</h2>
+      <p class="sub">Responda rapidinho e veja os primeiros passos recomendados para a sua situação, além dos documentos que ajudam na análise.</p>
+      <span class="script">Informação é o primeiro passo!</span>
+    </div>
+
+    <div class="quiz reveal" id="quiz" aria-live="polite">
+      <div class="progress"><i id="qBar"></i></div>
+
+      <div class="quiz-step active" data-step="1">
+        <h3>1. O que aconteceu com seu plano?</h3>
+        <div class="opts" data-key="problema">
+          <button class="opt" data-v="negativa"><span class="dot"></span>Negou cirurgia ou exame</button>
+          <button class="opt" data-v="medicamento"><span class="dot"></span>Negou medicamento ou terapia</button>
+          <button class="opt" data-v="reajuste"><span class="dot"></span>Reajuste muito alto</button>
+          <button class="opt" data-v="cancelamento"><span class="dot"></span>Cancelou meu plano</button>
+          <button class="opt" data-v="urgencia"><span class="dot"></span>Negou urgência/emergência</button>
+          <button class="opt" data-v="outro"><span class="dot"></span>Outro problema</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="2">
+        <h3>2. Qual é a urgência?</h3>
+        <div class="opts" data-key="urgencia">
+          <button class="opt" data-v="alta"><span class="dot"></span>Há risco à saúde agora</button>
+          <button class="opt" data-v="media"><span class="dot"></span>Tratamento em andamento</button>
+          <button class="opt" data-v="baixa"><span class="dot"></span>Posso aguardar um pouco</button>
+          <button class="opt" data-v="financeira"><span class="dot"></span>É uma questão financeira</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="3">
+        <h3>3. Você tem a negativa ou comunicado por escrito?</h3>
+        <div class="opts" data-key="escrito">
+          <button class="opt" data-v="sim"><span class="dot"></span>Sim, tenho por escrito</button>
+          <button class="opt" data-v="protocolo"><span class="dot"></span>Só o número de protocolo</button>
+          <button class="opt" data-v="nao"><span class="dot"></span>Não, foi só verbal</button>
+          <button class="opt" data-v="naosei"><span class="dot"></span>Não sei</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="4">
+        <div class="quiz-result" id="qResult"></div>
+        <a class="btn btn-wa" id="qWa" href="#" target="_blank" rel="noopener" style="width:100%">
+          <svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg> Enviar meu caso para a equipe
+        </a>
+        <small class="note">Esta orientação é informativa e não substitui a análise jurídica individual do seu caso.</small>
+      </div>
+
+      <div class="quiz-nav">
+        <button class="btn btn-ghost" id="qBack" style="padding:12px 18px;visibility:hidden">← Voltar</button>
+        <button class="btn btn-ghost" id="qReset" style="padding:12px 18px;display:none">Recomeçar</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PASSO A PASSO ============ -->
+<section class="section" id="passos" style="background:#fff">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">O plano negou?</span>
+      <h2>O que fazer, <span class="brush">passo a passo</span></h2>
+      <p>Organizar as informações desde o início faz toda a diferença na solução do problema.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal" style="--c:var(--blue)"><div class="n">1</div><h3>Peça a negativa por escrito</h3><p>Solicite à operadora a justificativa formal e anote o número de protocolo de cada contato.</p></div>
+      <div class="step reveal" style="--c:var(--green)"><div class="n">2</div><h3>Relatório médico detalhado</h3><p>Peça ao seu médico um relatório com diagnóstico (CID), tratamento indicado e o porquê da urgência.</p></div>
+      <div class="step reveal" style="--c:var(--yellow)"><div class="n">3</div><h3>Reúna os documentos</h3><p>Contrato, carteirinha, comprovantes de pagamento, exames e laudos.</p></div>
+      <div class="step reveal" style="--c:var(--purple)"><div class="n">4</div><h3>Registre na ANS</h3><p>A reclamação pode ser feita pelo Disque ANS (0800 701 9656) ou pelo site da agência.</p></div>
+      <div class="step reveal" style="--c:var(--red)"><div class="n">5</div><h3>Busque orientação jurídica</h3><p>Com risco à saúde, pode ser cabível pedido de liminar (tutela de urgência) na Justiça.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRAZOS ANS ============ -->
+<section class="section deadlines" id="prazos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Regras da ANS</span>
+      <h2>Prazos máximos de <span class="brush">atendimento</span></h2>
+      <p>Depois de cumprida a carência, a operadora deve garantir o atendimento dentro destes prazos (em dias úteis).</p>
+    </div>
+    <div class="dl-grid">
+      <div class="dl-list reveal" id="dlList">
+        <div class="dl-row"><div><b>Urgência e emergência</b><span>Pronto-socorro, risco imediato</span></div><div class="dl-bar" style="--c:#FAD4D5"><i data-w="100"></i><em>Imediato</em></div></div>
+        <div class="dl-row"><div><b>Exames de análises clínicas</b><span>Exames laboratoriais</span></div><div class="dl-bar" style="--c:#D7E7FB"><i data-w="14"></i><em>3 dias</em></div></div>
+        <div class="dl-row"><div><b>Consulta básica</b><span>Pediatria, clínica médica, cirurgia geral, ginecologia e obstetrícia</span></div><div class="dl-bar" style="--c:#D4F0E2"><i data-w="33"></i><em>7 dias</em></div></div>
+        <div class="dl-row"><div><b>Consulta odontológica</b><span>Atendimento básico</span></div><div class="dl-bar" style="--c:#D4F0E2"><i data-w="33"></i><em>7 dias</em></div></div>
+        <div class="dl-row"><div><b>Psicólogo, fono, nutricionista, TO, fisio</b><span>E demais diagnósticos/terapias ambulatoriais</span></div><div class="dl-bar" style="--c:#E6DDF8"><i data-w="48"></i><em>10 dias</em></div></div>
+        <div class="dl-row"><div><b>Demais especialidades médicas</b><span>Cardiologia, dermatologia, neurologia etc.</span></div><div class="dl-bar" style="--c:#FFEFC2"><i data-w="67"></i><em>14 dias</em></div></div>
+        <div class="dl-row"><div><b>Alta complexidade e internação eletiva</b><span>Procedimentos e cirurgias agendadas</span></div><div class="dl-bar" style="--c:#CDEBE8"><i data-w="100"></i><em>21 dias</em></div></div>
+      </div>
+      <aside class="dl-side reveal">
+        <h3>O prazo não foi cumprido?</h3>
+        <p>A operadora pode ser penalizada. Siga estes passos:</p>
+        <ol>
+          <li>Ligue para a operadora e peça um protocolo.</li>
+          <li>Se não houver solução, registre reclamação na ANS informando o protocolo.</li>
+          <li>Guarde todos os registros — eles comprovam a demora.</li>
+          <li>Com risco à saúde, procure orientação jurídica sem demora.</li>
+        </ol>
+        <div class="phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-phone"/></svg>
+          <div><small style="color:#C9D8F5">Disque ANS (gratuito)</small><br><b>0800 701 9656</b></div>
+        </div>
+      </aside>
+    </div>
+    <p class="src">Fonte: Cartilha de Prazos Máximos de Atendimento da ANS (RN 566/2022). Os prazos podem ser atualizados pela agência.</p>
+  </div>
+</section>
+
+<!-- ============ LEGISLAÇÃO ============ -->
+<section class="section" id="leis" style="background:#fff">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Base legal</span>
+      <h2>O que diz a <span class="brush">lei</span></h2>
+      <p>As principais normas que protegem quem tem plano de saúde, em linguagem simples.</p>
+    </div>
+    <div class="laws">
+      <div class="law reveal" style="--c:var(--blue)"><span class="tag">Lei 9.656/98</span><h3>Lei dos Planos de Saúde</h3><p>Define coberturas mínimas, carências máximas (24h para urgência), regras de cancelamento e a permanência de aposentados e demitidos.</p></div>
+      <div class="law reveal" style="--c:var(--green)"><span class="tag">CDC · Súmula 608 STJ</span><h3>Código de Defesa do Consumidor</h3><p>Aplica-se aos planos de saúde (exceto autogestão). Cláusulas abusivas são nulas e o contrato deve ser interpretado a favor do consumidor.</p></div>
+      <div class="law reveal" style="--c:var(--red)"><span class="tag">Lei 10.741/03</span><h3>Estatuto da Pessoa Idosa</h3><p>Proíbe a cobrança de valores diferenciados em razão da idade para pessoas com 60 anos ou mais.</p></div>
+      <div class="law reveal" style="--c:var(--purple)"><span class="tag">Normas ANS</span><h3>Resoluções da ANS</h3><p>Rol de procedimentos, prazos máximos de atendimento, portabilidade de carências e regras de cobertura para transtornos do desenvolvimento.</p></div>
+    </div>
+
+    <div class="highlight-law reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-scale"/></svg></div>
+      <div>
+        <h3>Tratamento fora do rol da ANS: o que mudou</h3>
+        <p>A Lei 14.454/2022 permitiu a cobertura de tratamentos fora do rol. Em setembro de 2025, o STF (ADI 7.265) confirmou essa possibilidade, mas fixou critérios que devem estar presentes ao mesmo tempo:</p>
+        <ol>
+          <li>Prescrição por médico ou dentista assistente habilitado;</li>
+          <li>Ausência de negativa expressa da ANS ou de análise pendente para inclusão no rol;</li>
+          <li>Inexistência de alternativa terapêutica adequada já prevista no rol;</li>
+          <li>Comprovação de eficácia e segurança com base em evidências científicas de alto nível;</li>
+          <li>Registro do medicamento ou tecnologia na Anvisa.</li>
+        </ol>
+        <p style="margin-top:10px;color:var(--muted)">Por isso, um relatório médico bem fundamentado e uma análise técnica do caso são ainda mais importantes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DOCUMENTOS ============ -->
+<section class="section" id="documentos" style="background:linear-gradient(180deg,#F6F9FF,#fff)">
+  <div class="container docs-wrap">
+    <div class="docs-visual reveal" id="docsVisual">
+      <img src="assets/cartao-plano.jpg" alt="" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+      <div class="fallback" aria-hidden="true">
+        <svg viewBox="0 0 220 150" width="62%"><rect x="10" y="20" width="200" height="120" rx="16" fill="#fff" opacity=".95"/><rect x="10" y="20" width="200" height="34" rx="16" fill="#1DB56E"/><rect x="10" y="40" width="200" height="14" fill="#1DB56E"/><path d="M42 82h18V64h16v18h18v16H76v18H60V98H42z" fill="#1F6FD1"/><rect x="112" y="70" width="80" height="8" rx="4" fill="#E3E9F2"/><rect x="112" y="86" width="60" height="8" rx="4" fill="#E3E9F2"/><rect x="112" y="102" width="70" height="8" rx="4" fill="#F5B301"/><text x="26" y="43" font-family="Montserrat,sans-serif" font-weight="800" font-size="13" fill="#fff">PLANO DE SAÚDE</text></svg>
+      </div>
+      <div class="stamp">
+        <div class="ring" id="docRing"><span id="docPct">0%</span></div>
+        <div><b>Sua pasta de documentos</b><small>Marque o que você já tem em mãos</small></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">Checklist</span>
+      <h2 style="font-family:var(--display);font-weight:900;color:var(--navy);font-size:clamp(1.7rem,3.2vw,2.4rem);line-height:1.15;margin:14px 0 8px">Documentos que ajudam na análise do seu caso</h2>
+      <p style="color:var(--muted)">Não tem tudo? Sem problema — começamos com o que você tiver e orientamos sobre o restante.</p>
+      <div class="checklist" id="checklist">
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Documento de identidade e CPF</b><small>Do titular e do paciente, se forem pessoas diferentes</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Carteirinha e contrato do plano</b><small>Ou proposta de adesão / termo do plano empresarial</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Negativa da operadora por escrito</b><small>E-mail, carta, print do app ou número de protocolo</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Relatório e prescrição médica</b><small>Com CID, tratamento indicado e justificativa de urgência</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Exames e laudos</b><small>Que sustentem o diagnóstico e a indicação</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Comprovantes de pagamento</b><small>Últimas mensalidades; em reajustes, o histórico de valores</small></span></label>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO ATENDEMOS ============ -->
+<section class="section how" id="atendimento">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Nosso atendimento</span>
+      <h2>Cuidado jurídico com <span class="brush">olhar humano</span></h2>
+      <p>Sabemos que, por trás de cada negativa, existe uma pessoa e uma família preocupadas. Por isso, conduzimos cada caso com atenção individual, transparência e responsabilidade.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-card reveal" style="--c:var(--blue)"><span class="num">01</span><h3>Escuta e acolhimento</h3><p>Você conta o que aconteceu, no seu tempo, por WhatsApp, telefone ou presencialmente.</p></div>
+      <div class="how-card reveal" style="--c:var(--green)"><span class="num">02</span><h3>Análise do caso</h3><p>Avaliamos contrato, negativa e documentos médicos para identificar seus direitos.</p></div>
+      <div class="how-card reveal" style="--c:var(--yellow)"><span class="num">03</span><h3>Estratégia clara</h3><p>Explicamos os caminhos possíveis — administrativo ou judicial — com riscos e prazos realistas.</p></div>
+      <div class="how-card reveal" style="--c:var(--purple)"><span class="num">04</span><h3>Acompanhamento</h3><p>Você é informado de cada etapa. Processos são eletrônicos, o que permite atuação em todo o país.</p></div>
+    </div>
+    <div class="values reveal">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Sem ações em massa</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Linguagem simples</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Sigilo profissional</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Ética e transparência</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="duvidas" style="background:linear-gradient(180deg,#fff,#F6F9FF)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Perguntas frequentes</span>
+      <h2>Tire suas <span class="brush">dúvidas</span></h2>
+    </div>
+    <div class="faq" id="faq">
+      <div class="qa reveal"><button aria-expanded="false">O plano pode negar um tratamento só porque não está no rol da ANS?<span class="pm">+</span></button><div class="ans"><div><p>Não automaticamente. O rol é a referência principal de cobertura, mas a Lei 14.454/2022 e a decisão do STF de 2025 admitem a cobertura de tratamentos fora do rol quando preenchidos critérios técnicos — como prescrição médica, ausência de alternativa no rol, evidência científica de alto nível e registro na Anvisa. Cada caso precisa ser analisado individualmente.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">A operadora é obrigada a me dar a negativa por escrito?<span class="pm">+</span></button><div class="ans"><div><p>Sim. Pelas normas da ANS, o beneficiário pode solicitar que a operadora informe por escrito o motivo da negativa, com referência à cláusula contratual ou norma que a justifica. Sempre anote os números de protocolo dos atendimentos.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Estou em carência. Posso ser atendido em uma emergência?<span class="pm">+</span></button><div class="ans"><div><p>A Lei 9.656/98 fixa carência máxima de 24 horas para casos de urgência e emergência. Situações envolvendo doenças preexistentes declaradas podem ter regras específicas (cobertura parcial temporária), por isso vale analisar o contrato.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Meu plano é coletivo. O reajuste não tem limite?<span class="pm">+</span></button><div class="ans"><div><p>O teto anual divulgado pela ANS vale para planos individuais e familiares. Nos coletivos, o reajuste é negociado, mas precisa ser justificado e transparente. Contratos com poucas vidas (os chamados “falsos coletivos”) e aumentos sem demonstração de cálculo costumam ser questionados na Justiça.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">O plano pode me cancelar durante um tratamento?<span class="pm">+</span></button><div class="ans"><div><p>O plano individual só pode ser rescindido por fraude ou por inadimplência superior a 60 dias, com notificação prévia. Nos planos coletivos, o STJ entende que, mesmo havendo rescisão, a operadora deve garantir a continuidade dos cuidados a quem está internado ou em tratamento de doença grave até a alta, desde que as mensalidades sejam pagas.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Fui demitido ou me aposentei. Posso continuar no plano da empresa?<span class="pm">+</span></button><div class="ans"><div><p>Em regra, quem contribuía com o pagamento do plano tem direito de permanecer, assumindo o valor integral. Para demitidos sem justa causa, o período é proporcional ao tempo de contribuição (de 6 a 24 meses). Aposentados com 10 anos ou mais de contribuição podem permanecer por tempo indeterminado.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Quanto tempo leva para conseguir uma decisão na Justiça?<span class="pm">+</span></button><div class="ans"><div><p>Quando há urgência, é possível pedir uma liminar (tutela de urgência), que costuma ser analisada rapidamente pelo juiz. O processo completo leva mais tempo e varia conforme o tribunal e a complexidade do caso. Não é possível prometer resultados — o que garantimos é dedicação e transparência em cada etapa.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Moro em outra cidade. Vocês podem me atender?<span class="pm">+</span></button><div class="ans"><div><p>Sim. Os processos são eletrônicos e o atendimento pode ser feito totalmente online, com reuniões por vídeo e envio digital de documentos.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA / CONTATO ============ -->
+<section class="section cta" id="contato">
+  <div class="container">
+    <div class="reveal">
+      <span class="script">Você tem <span class="y">direitos.</span><br>Informe-se!</span>
+      <p>Conte para nós o que está acontecendo. Nossa equipe vai analisar sua situação e explicar, com clareza, quais caminhos são possíveis.</p>
+      <div class="contacts">
+        <!-- CONFIG: ajuste telefone, e-mail e endereço -->
+        <a href="#" data-wa="Olá! Vim pela página de Planos de Saúde."><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg><span id="ctaPhone">(62) 9 0000-0000</span></a>
+        <a href="mailto:contato@medeirosesebba.adv.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-mail"/></svg>contato@medeirosesebba.adv.br</a>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-pin"/></svg>Goiânia – GO · Atendimento em todo o Brasil</div>
+      </div>
+    </div>
+
+    <form class="contact reveal" id="contactForm" novalidate>
+      <h3>Conte seu caso</h3>
+      <p class="hint">Ao enviar, abriremos o WhatsApp com sua mensagem pronta.</p>
+      <div class="row2">
+        <div class="field"><label for="fNome">Nome*</label><input id="fNome" required autocomplete="name" placeholder="Seu nome"></div>
+        <div class="field"><label for="fCidade">Cidade / UF</label><input id="fCidade" autocomplete="address-level2" placeholder="Ex.: Goiânia – GO"></div>
+      </div>
+      <div class="field">
+        <label for="fAssunto">Assunto*</label>
+        <select id="fAssunto" required>
+          <option value="">Selecione…</option>
+          <option>Negativa de cirurgia, exame ou internação</option>
+          <option>Medicamento de alto custo / oncológico</option>
+          <option>Terapias para TEA</option>
+          <option>Home care</option>
+          <option>Reajuste abusivo</option>
+          <option>Cancelamento do plano</option>
+          <option>Descredenciamento / rede credenciada</option>
+          <option>Aposentado, demitido ou dependente</option>
+          <option>Reembolso / coparticipação</option>
+          <option>Outro assunto</option>
+        </select>
+      </div>
+      <div class="field"><label for="fMsg">Resumo do que aconteceu*</label><textarea id="fMsg" rows="4" required placeholder="Ex.: O plano negou a ressonância pedida pelo médico…"></textarea></div>
+      <label class="consent"><input type="checkbox" id="fLgpd" required> Concordo com o uso dos meus dados para retorno do contato, conforme a LGPD. Evite enviar dados médicos sensíveis neste primeiro contato.</label>
+      <button class="btn btn-wa" type="submit"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg> Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer>
+  <div class="container">
+    <div class="f-grid">
+      <div>
+        <span class="logo-text">
+          <span class="logo-mark">MS</span><span class="logo-sep"></span>
+          <span class="logo-name">MEDEIROS<br>&amp; SEBBA<small>ADVOGADOS</small></span>
+        </span>
+        <p class="disclaimer">Conteúdo de caráter exclusivamente informativo, em conformidade com o Código de Ética e Disciplina da OAB e o Provimento 205/2021. As informações não substituem a análise individual de um advogado e não constituem promessa de resultado.</p>
+      </div>
+      <div>
+        <h4>Nesta página</h4>
+        <ul>
+          <li><a href="#direitos">Seus direitos</a></li>
+          <li><a href="#situacoes">Como ajudamos</a></li>
+          <li><a href="#avaliacao">Avalie seu caso</a></li>
+          <li><a href="#prazos">Prazos da ANS</a></li>
+          <li><a href="#duvidas">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Canais oficiais</h4>
+        <ul>
+          <li><a href="https://www.gov.br/ans" target="_blank" rel="noopener">ANS — gov.br/ans</a></li>
+          <li>Disque ANS: 0800 701 9656</li>
+          <li><a href="https://www.consumidor.gov.br" target="_blank" rel="noopener">consumidor.gov.br</a></li>
+          <li>Procon do seu estado</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#" data-wa="Olá! Vim pela página de Planos de Saúde.">WhatsApp</a></li>
+          <li><a href="mailto:contato@medeirosesebba.adv.br">E-mail</a></li>
+          <li>Goiânia – GO</li>
+          <li>Seg. a sex. · 8h às 18h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© <span id="year"></span> Medeiros &amp; Sebba Advogados. Todos os direitos reservados.</span>
+      <span>Juntos por planos de saúde mais justos e humanos. 💙💚</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="#" data-wa="Olá! Vim pela página de Planos de Saúde e gostaria de uma orientação." aria-label="Fale conosco pelo WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg></a>
+<div class="wa-bubble" id="waBubble">Precisa de ajuda com seu plano? 💬</div>
+
+<!-- ============ ÍCONES (SVG sprite) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/><path d="M6 11h3l1.5-2 2 4 1.5-2H18"/></symbol>
+  <symbol id="i-steth" viewBox="0 0 24 24"><path d="M5 3v5a5 5 0 0 0 10 0V3"/><path d="M10 13v2a5 5 0 0 0 10 0v-1"/><circle cx="20" cy="12" r="2"/></symbol>
+  <symbol id="i-doctor" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/><path d="M9 15v3a2 2 0 0 0 4 0"/><circle cx="16" cy="18" r="1.4"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M8 12h8M8 16h5"/><circle cx="17" cy="18" r="3.2"/><path d="M15.7 18l.9.9 1.7-1.8"/></symbol>
+  <symbol id="i-pill" viewBox="0 0 24 24"><rect x="5" y="3" width="10" height="4" rx="1"/><path d="M6 7h8v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"/><path d="M8 12h4"/><rect x="13" y="13" width="9" height="5" rx="2.5" transform="rotate(-40 17.5 15.5)"/></symbol>
+  <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M14.5 9a2.5 2.5 0 0 0-2.5-1.5c-1.5 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.8 2.5 2-1 2-2.5 2A2.5 2.5 0 0 1 9.5 15M12 6v1.5M12 16.5V18"/><path d="M5.5 5.5l13 13"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3"/><circle cx="5.5" cy="10" r="2.2"/><circle cx="18.5" cy="10" r="2.2"/><path d="M7 20c0-3 2.2-5 5-5s5 2 5 5"/><path d="M2 19c0-2 1.4-3.5 3.5-3.5M22 19c0-2-1.4-3.5-3.5-3.5"/></symbol>
+  <symbol id="i-scalpel" viewBox="0 0 24 24"><path d="M3 21l8-8"/><path d="M11 13l8.5-8.5a2 2 0 0 1 2.8 2.8L13.8 15.8 11 13z"/><path d="M14 4l2 2"/></symbol>
+  <symbol id="i-puzzle" viewBox="0 0 24 24"><path d="M4 8h4a2 2 0 1 1 4 0h4v4a2 2 0 1 1 0 4v4h-4a2 2 0 1 0-4 0H4v-4a2 2 0 1 0 0-4z"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M12 13v5M9.5 15.5h5"/></symbol>
+  <symbol id="i-siren" viewBox="0 0 24 24"><path d="M6 18v-6a6 6 0 0 1 12 0v6"/><path d="M4 18h16v3H4zM12 2v2M4.2 5.2l1.4 1.4M19.8 5.2l-1.4 1.4"/></symbol>
+  <symbol id="i-ribbon" viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 0-4 4c0 3 4 7 4 7s4-4 4-7a4 4 0 0 0-4-4z"/><path d="M10 13l-4 8 3-1 1.5 2.5L13 15M14 13l4 8-3-1-1.5 2.5"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 21h18"/><path d="M5 17l5-5 4 3 6-8"/><path d="M15 7h5v5"/></symbol>
+  <symbol id="i-cake" viewBox="0 0 24 24"><path d="M4 13h16v8H4z"/><path d="M4 16c2 1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 4 0"/><path d="M12 13V9M12 6.5c-.8 0-1.3-.6-1.3-1.3S12 3 12 3s1.3 1.5 1.3 2.2-.5 1.3-1.3 1.3z"/></symbol>
+  <symbol id="i-refund" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 8v8M9.5 10.5c0-1 1-1.5 2.5-1.5s2.5.6 2.5 1.6-1 1.4-2.5 1.4-2.5.5-2.5 1.5 1 1.5 2.5 1.5 2.5-.5 2.5-1.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9l6 6M15 9l-6 6"/></symbol>
+  <symbol id="i-hospital" viewBox="0 0 24 24"><path d="M4 21V7l8-4 8 4v14"/><path d="M10 10h4M12 8v4M9 21v-5h6v5"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 13h18"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M7 21h10M5 7h14M12 5l-7 2M12 5l7 2"/><path d="M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+</svg>
+
+<script>
+/* ============ CONFIG — ajuste aqui ============ */
+const CONFIG = {
+  whatsapp: '5562900000000',   // DDI + DDD + número, só dígitos
+};
+
+(function(){
+  const waLink = (msg) => 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(msg);
+
+  // Links de WhatsApp
+  document.querySelectorAll('[data-wa]').forEach(a => {
+    a.href = waLink(a.dataset.wa);
+    a.target = '_blank'; a.rel = 'noopener';
+  });
+
+  // Ano
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Menu mobile
+  const nav = document.getElementById('mainNav'), mb = document.getElementById('menuBtn');
+  mb.addEventListener('click', () => { const o = nav.classList.toggle('open'); mb.setAttribute('aria-expanded', o); });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { nav.classList.remove('open'); mb.setAttribute('aria-expanded', false); }));
+
+  // Reveal ao rolar
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }), {threshold:.12});
+  document.querySelectorAll('.reveal').forEach((el,i) => { el.style.transitionDelay = (i%3)*80 + 'ms'; io.observe(el); });
+
+  // Barras dos prazos
+  const dl = document.getElementById('dlList');
+  new IntersectionObserver((es,ob) => es.forEach(e => { if (e.isIntersecting){ dl.querySelectorAll('i[data-w]').forEach(i => i.style.width = i.dataset.w + '%'); ob.disconnect(); } }), {threshold:.3}).observe(dl);
+
+  // Filtro de situações
+  const tabs = document.querySelectorAll('.tab');
+  tabs.forEach(t => t.addEventListener('click', () => {
+    tabs.forEach(x => x.setAttribute('aria-selected', x === t));
+    const f = t.dataset.filter;
+    document.querySelectorAll('.case').forEach(c => c.hidden = !(f === 'all' || c.dataset.cat === f));
+  }));
+
+  // FAQ
+  document.querySelectorAll('.qa button').forEach(b => b.addEventListener('click', () => {
+    const open = b.getAttribute('aria-expanded') === 'true';
+    document.querySelectorAll('.qa button').forEach(x => x.setAttribute('aria-expanded', 'false'));
+    b.setAttribute('aria-expanded', String(!open));
+  }));
+
+  // Checklist de documentos
+  const boxes = document.querySelectorAll('#checklist input'), ring = document.getElementById('docRing'), pct = document.getElementById('docPct');
+  const upd = () => { const p = Math.round([...boxes].filter(b => b.checked).length / boxes.length * 100); ring.style.setProperty('--p', p); pct.textContent = p + '%'; };
+  boxes.forEach(b => b.addEventListener('change', upd));
+
+  // Avaliador de caso
+  const steps = document.querySelectorAll('.quiz-step'), bar = document.getElementById('qBar');
+  const back = document.getElementById('qBack'), reset = document.getElementById('qReset');
+  const ans = {}; let cur = 1;
+  const labels = {
+    problema:{negativa:'negativa de cirurgia ou exame',medicamento:'negativa de medicamento ou terapia',reajuste:'reajuste muito alto',cancelamento:'cancelamento do plano',urgencia:'negativa de urgência/emergência',outro:'outro problema com o plano'},
+    urgencia:{alta:'há risco à saúde agora',media:'tratamento em andamento',baixa:'posso aguardar',financeira:'questão financeira'},
+    escrito:{sim:'tenho a negativa por escrito',protocolo:'tenho só o protocolo',nao:'a negativa foi verbal',naosei:'não sei se tenho por escrito'}
+  };
+  const tips = {
+    negativa:['Peça ao médico um relatório detalhado com CID e justificativa.','Confira se o procedimento consta no rol da ANS.'],
+    medicamento:['Reúna a prescrição, laudo e histórico de tratamentos anteriores.','Verifique se o medicamento tem registro na Anvisa.'],
+    reajuste:['Separe os boletos dos últimos anos para comparar os valores.','Peça à operadora a memória de cálculo do reajuste.'],
+    cancelamento:['Guarde a notificação de cancelamento e comprovantes de pagamento.','Se houver tratamento em curso, informe isso imediatamente.'],
+    urgencia:['Lembre-se: a carência máxima para urgência é de 24 horas.','Guarde notas e recibos de despesas que você teve que pagar.'],
+    outro:['Anote datas, nomes e protocolos de todos os contatos.','Separe o contrato e a carteirinha do plano.']
+  };
+  function go(n){
+    cur = n;
+    steps.forEach(s => s.classList.toggle('active', +s.dataset.step === n));
+    bar.style.width = Math.min(n,3)/3*100 + '%';
+    back.style.visibility = (n > 1 && n < 4) ? 'visible' : 'hidden';
+    reset.style.display = n === 4 ? 'inline-flex' : 'none';
+  }
+  function result(){
+    const urgent = ans.urgencia === 'alta' || ans.problema === 'urgencia';
+    const list = [...tips[ans.problema]];
+    if (ans.escrito !== 'sim') list.unshift('Solicite à operadora a negativa ou comunicado <b>por escrito</b>, com o motivo e o número de protocolo.');
+    list.push('Registre reclamação na ANS (0800 701 9656) e guarde o número.');
+    document.getElementById('qResult').innerHTML =
+      '<h4>' + (urgent ? '⚠️ Seu caso pede atenção rápida' : '✅ Próximos passos recomendados') + '</h4>' +
+      '<p>' + (urgent ? 'Quando há risco à saúde, pode ser cabível um pedido de liminar. Fale com a equipe o quanto antes.' : 'Com essas providências, a análise jurídica do seu caso fica mais completa e ágil.') + '</p>' +
+      '<ul>' + list.map(t => '<li>' + t + '</li>').join('') + '</ul>';
+    const msg = 'Olá! Fiz a avaliação na página de Planos de Saúde.\n• Problema: ' + labels.problema[ans.problema] + '\n• Urgência: ' + labels.urgencia[ans.urgencia] + '\n• Documento: ' + labels.escrito[ans.escrito] + '\nGostaria de uma análise do meu caso.';
+    document.getElementById('qWa').href = waLink(msg);
+  }
+  document.querySelectorAll('.opts').forEach(g => g.querySelectorAll('.opt').forEach(o => o.addEventListener('click', () => {
+    g.querySelectorAll('.opt').forEach(x => x.classList.remove('sel')); o.classList.add('sel');
+    ans[g.dataset.key] = o.dataset.v;
+    setTimeout(() => { if (cur === 3){ result(); go(4);} else go(cur + 1); }, 260);
+  })));
+  back.addEventListener('click', () => go(Math.max(1, cur - 1)));
+  reset.addEventListener('click', () => { document.querySelectorAll('.opt.sel').forEach(o => o.classList.remove('sel')); go(1); });
+
+  // Formulário → WhatsApp
+  document.getElementById('contactForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const f = e.target, nome = f.fNome.value.trim(), ass = f.fAssunto.value, msg = f.fMsg.value.trim();
+    if (!nome || !ass || !msg || !f.fLgpd.checked){
+      [f.fNome, f.fAssunto, f.fMsg].forEach(el => el.style.borderColor = el.value.trim() ? '' : 'var(--red)');
+      if (!f.fLgpd.checked) f.fLgpd.parentNode.style.color = 'var(--red)';
+      return;
+    }
+    const txt = 'Olá! Meu nome é ' + nome + (f.fCidade.value ? ' (' + f.fCidade.value + ')' : '') + '.\nAssunto: ' + ass + '\n' + msg;
+    window.open(waLink(txt), '_blank', 'noopener');
+  });
+
+  // Balão do WhatsApp
+  const bubble = document.getElementById('waBubble');
+  setTimeout(() => bubble.classList.add('show'), 4000);
+  setTimeout(() => bubble.classList.remove('show'), 11000);
+})();
+</script>
+</body>
+</html>
