@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medeiros & Sebba Advogados</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-color: #0A121E;         /* Fundo escuro sóbrio */
+            --card-bg: #111B29;         /* Fundo sutil do container */
+            --navy-text: #F1F5F9;       /* Texto principal claro */
+            --gold-accent: #C5A059;     /* Dourado institucional */
+            --gold-hover: #D4AF37;
+            --text-muted: #94A3B8;      /* Texto secundário */
+            --border-subtle: rgba(197, 160, 89, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--navy-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            line-height: 1.6;
+            background: radial-gradient(circle at center, #132235 0%, #0A121E 100%);
+        }
+
+        /* HERO PRINCIPAL */
+        .hero {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 24px;
+        }
+
+        .hero-container {
+            max-width: 820px;
+            width: 100%;
+            padding: 50px 40px;
+            background: rgba(17, 27, 41, 0.6);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .logo-principal {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            margin-bottom: 30px;
+            filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.5));
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.8rem;
+            font-weight: 600;
+            color: #FFFFFF;
+            letter-spacing: 1px;
+            margin-bottom: 18px;
+        }
+
+        .subtitulo {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            max-width: 680px;
+            margin: 0 auto 40px;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        /* BOTÕES DE CONTATO */
+        .contato {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 16px 36px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn-whatsapp {
+            background: linear-gradient(135deg, #122232 0%, #1A3249 100%);
+            color: #FFFFFF;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .btn-whatsapp:hover {
+            background: #25D366;
+            color: #FFFFFF;
+            border-color: #25D366;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .btn-email {
+            background: linear-gradient(135deg, var(--gold-accent) 0%, #A8833E 100%);
+            color: #FFFFFF;
+            border: 1px solid var(--gold-accent);
+        }
+
+        .btn-email:hover {
+            background: linear-gradient(135deg, var(--gold-hover) 0%, var(--gold-accent) 100%);
+            color: #0A121E;
+            box-shadow: 0 6px 20px rgba(197, 160, 89, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid rgba(197, 160, 89, 0.1);
+        }
+
+        /* RESPONSIVIDADE */
+        @media (max-width: 768px) {
+            .hero-container {
+                padding: 30px 20px;
+            }
+            .logo-principal {
+                max-width: 320px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .subtitulo {
+                font-size: 0.95rem;
+            }
+            .btn {
+                width: 100%;
+                max-width: 340px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO PRINCIPAL DA PÁGINA -->
+    <section class="hero">
+        <div class="hero-container">
+            <img src="images/logo7.png" class="logo-principal" alt="Medeiros & Sebba Advogados">
+            <h1>Medeiros & Sebba Advogados</h1>
+            <p class="subtitulo">
+                Advocacia estratégica, atendimento personalizado e atuação jurídica pautada na excelência, confiança e comprometimento.
+            </p>
+            <div class="contato">
+                <a class="btn btn-whatsapp" href="https://wa.me/5511932580975" target="_blank">
+                    <i class="fab fa-whatsapp fs-5"></i> Entre em Contato pelo WhatsApp
+                </a>
+                <a class="btn btn-email" href="mailto:medeirosesebba.advogados@gmail.com">
+                    <i class="far fa-envelope fs-5"></i> Enviar E-mail
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        WhatsApp: (11) 93258-0975 | medeirosesebba.advogados@gmail.com
+    </footer>
+
+</body>
+</html>
