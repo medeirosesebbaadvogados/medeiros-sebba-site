@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Direitos do Paciente com Câncer | Medeiros &amp; Sebba Advogados</title>
+<meta name="description" content="Quimioterapia oral, medicamentos de alto custo, radioterapia, prazos de 30 e 60 dias no SUS, isenção de IR, FGTS e benefícios do INSS. Conheça os direitos do paciente com câncer com a Medeiros & Sebba Advogados.">
+<meta name="theme-color" content="#0E2A5C">
+<meta property="og:title" content="Diagnóstico de câncer? Seus direitos não podem esperar | Medeiros & Sebba Advogados">
+<meta property="og:description" content="Orientação jurídica humana e individualizada para pacientes oncológicos e suas famílias.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/og-oncologia.jpg">
+<link rel="icon" href="assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Montserrat:wght@600;700;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<!--
+  ==========================================================
+  MEDEIROS & SEBBA ADVOGADOS — Área: Saúde / Pacientes Oncológicos
+  Pasta sugerida: C:\sites\MedeirosSebba\atuacao\saude\oncologia\
+  Imagens (opcionais) em  .\assets\
+    - assets/logo-medeiros-sebba.png   (logo do escritório — já incluído)
+    - assets/hero-oncologia.jpg        (foto acolhedora, ~900x900; sem ela aparece uma ilustração)
+    - assets/og-oncologia.jpg          (imagem para compartilhamento, 1200x630)
+
+  >>> AJUSTE AQUI os dados de contato (procure por "CONFIG") <<<
+  Revisão legal: outubro/2026.
+  ==========================================================
+-->
+
+<style>
+
+:root{
+  --navy:#0E2A5C;
+  --navy-2:#13366F;
+  --blue:#1F6FD1;
+  --blue-soft:#E8F1FD;
+  --green:#14955A;
+  --green-2:#1DB56E;
+  --green-soft:#E6F6EE;
+  --yellow:#F5B301;
+  --yellow-soft:#FFF6DA;
+  --purple:#6E3FC9;
+  --red:#E0393E;
+  --teal:#0F7C74;
+  --ink:#1B2B45;
+  --muted:#5A6B86;
+  --line:#E3E9F2;
+  --bg:#FBFCFE;
+  --card:#FFFFFF;
+  --radius:20px;
+  --shadow:0 10px 30px rgba(14,42,92,.08);
+  --shadow-lg:0 24px 60px rgba(14,42,92,.14);
+  --script:'Kalam',cursive;
+  --display:'Montserrat',system-ui,sans-serif;
+  --body:'Nunito',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.container{width:min(1180px,100% - 32px);margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ---------- utilidades visuais ---------- */
+.script{font-family:var(--script);font-weight:700}
+.brush{position:relative;display:inline-block}
+.brush::after{content:"";position:absolute;left:-2%;right:-2%;bottom:-.12em;height:.32em;background:var(--yellow);border-radius:40% 60% 50% 50%/60% 40% 60% 40%;z-index:-1;transform:rotate(-1.2deg);opacity:.9}
+.stroke{display:block;height:6px;width:120px;border-radius:6px;margin:14px auto 0;background:linear-gradient(90deg,var(--c,var(--blue)) 0 70%,transparent 70%)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:800;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);background:var(--blue-soft);padding:7px 14px;border-radius:99px}
+.section{padding:96px 0;position:relative}
+.section-head{text-align:center;max-width:760px;margin:0 auto 52px}
+.section-head h2{font-family:var(--display);font-weight:900;font-size:clamp(1.8rem,3.6vw,2.7rem);line-height:1.15;color:var(--navy);margin:16px 0 14px;letter-spacing:-.01em}
+.section-head p{color:var(--muted);font-size:1.08rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--display);font-weight:800;font-size:.98rem;padding:16px 26px;border-radius:14px;transition:transform .2s,box-shadow .2s,background .2s;line-height:1.1}
+.btn:hover{transform:translateY(-2px)}
+.btn-wa{background:linear-gradient(135deg,var(--green-2),var(--green));color:#fff;box-shadow:0 10px 24px rgba(20,149,90,.35)}
+.btn-wa:hover{box-shadow:0 14px 30px rgba(20,149,90,.45)}
+.btn-ghost{background:#fff;color:var(--navy);border:2px solid var(--line)}
+.btn-ghost:hover{border-color:var(--blue);color:var(--blue)}
+.btn-yellow{background:var(--yellow);color:var(--navy);box-shadow:0 10px 24px rgba(245,179,1,.35)}
+.btn svg{width:20px;height:20px;flex:none}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+
+/* ---------- topo ---------- */
+.topbar{background:var(--navy);color:#cfe0ff;font-size:.85rem}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:8px 0;flex-wrap:wrap}
+.topbar span{display:inline-flex;align-items:center;gap:8px}
+.topbar b{color:#fff}
+header.site{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+header.site .container{display:flex;align-items:center;justify-content:space-between;gap:20px;height:78px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{height:52px;width:auto}
+.logo-text{display:flex;align-items:center;gap:12px;color:var(--navy)}
+.logo-mark{font-family:'Times New Roman',Georgia,serif;font-size:2.4rem;font-weight:700;letter-spacing:-.06em;line-height:1}
+.logo-sep{width:1.5px;height:40px;background:var(--navy);opacity:.6}
+.logo-name{font-family:Georgia,'Times New Roman',serif;line-height:1.05;font-size:1.05rem}
+.logo-name small{display:block;font-family:var(--body);font-size:.6rem;letter-spacing:.38em;opacity:.75;margin-top:4px}
+nav.main{display:flex;gap:26px;font-family:var(--display);font-weight:700;font-size:.9rem;color:var(--navy)}
+nav.main a{position:relative;padding:6px 0}
+nav.main a::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--yellow);border-radius:3px;transition:width .25s}
+nav.main a:hover::after{width:100%}
+.header-cta{padding:12px 18px;font-size:.88rem}
+.menu-btn{display:none;width:44px;height:44px;border-radius:12px;border:2px solid var(--line);align-items:center;justify-content:center}
+.menu-btn svg{width:22px;height:22px}
+@media (max-width:980px){
+  nav.main{position:fixed;inset:78px 0 auto 0;background:#fff;flex-direction:column;gap:0;padding:8px 16px 20px;border-bottom:1px solid var(--line);box-shadow:var(--shadow);transform:translateY(-130%);transition:transform .3s;z-index:-1}
+  nav.main.open{transform:none}
+  nav.main a{padding:14px 4px;border-bottom:1px solid var(--line)}
+  .menu-btn{display:inline-flex}
+  .header-cta{display:none}
+  .topbar .hide-sm{display:none}
+}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:64px 0 120px;overflow:hidden;background:
+  radial-gradient(1200px 500px at 85% -10%,#FFF3C9 0,transparent 60%),
+  radial-gradient(900px 500px at -10% 30%,#E3EEFF 0,transparent 60%),
+  linear-gradient(180deg,#fff, #F6F9FF)}
+.hero .container{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero h1{margin:18px 0 6px}
+.hero .script-title{display:block;font-family:var(--script);font-size:clamp(2.4rem,5.6vw,4.1rem);line-height:1.05;color:var(--navy);transform:rotate(-3deg);transform-origin:left;margin-bottom:22px}
+.hero .script-title .u{background:linear-gradient(transparent 72%,var(--yellow) 72% 90%,transparent 90%)}
+.hero .lead-small{display:block;font-family:var(--display);font-weight:700;font-size:clamp(1.15rem,2vw,1.45rem);color:var(--navy-2)}
+.hero .big{display:block;font-family:var(--display);font-weight:900;line-height:.95;letter-spacing:-.02em;font-size:clamp(2.6rem,6.4vw,4.8rem);color:var(--navy)}
+.hero .big .g{background:linear-gradient(135deg,#1DB56E 0%,#0F8A4F 50%,#1F6FD1 120%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.intro{font-size:1.12rem;color:var(--muted);max-width:560px;margin:22px 0 30px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+.trust{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;color:var(--navy);font-weight:700;font-size:.93rem}
+.trust span{display:inline-flex;align-items:center;gap:8px}
+.trust svg{width:20px;height:20px;color:var(--green)}
+.hero-visual{position:relative;aspect-ratio:1/1;max-width:560px;margin-left:auto;width:100%}
+.hero-photo{position:absolute;inset:0;border-radius:44% 56% 52% 48%/48% 42% 58% 52%;overflow:hidden;background:
+  radial-gradient(circle at 30% 30%,#FFE9A8,transparent 55%),
+  radial-gradient(circle at 75% 70%,#BFE8D2,transparent 55%),
+  linear-gradient(135deg,#DCEBFF,#F3F8FF);box-shadow:var(--shadow-lg);border:8px solid #fff}
+.hero-photo img{width:100%;height:100%;object-fit:cover}
+.hero-photo .fallback{position:absolute;inset:0;display:grid;place-items:center}
+.hero-photo .fallback svg{width:58%;filter:drop-shadow(0 18px 30px rgba(14,42,92,.25))}
+.hero-photo.has-img .fallback{display:none}
+.float-card{position:absolute;background:#fff;border-radius:16px;box-shadow:var(--shadow-lg);padding:14px 16px;display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy);font-size:.92rem;animation:bob 6s ease-in-out infinite}
+.float-card .ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;flex:none}
+.float-card .ic svg{width:22px;height:22px}
+.float-card small{display:block;font-weight:600;color:var(--muted);font-size:.78rem}
+.fc1{left:-18px;top:14%}
+.fc2{right:-10px;bottom:16%;animation-delay:-3s}
+.hero-tag{position:absolute;right:4%;top:2%;font-family:var(--script);color:var(--navy);font-size:1.35rem;line-height:1.05;transform:rotate(12deg);text-align:center}
+.hero-tag::after{content:"";display:block;height:5px;width:70%;margin:6px auto 0;background:var(--yellow);border-radius:5px}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.wave{position:absolute;left:0;right:0;bottom:-1px;line-height:0}
+.wave svg{width:100%;height:90px}
+@media (max-width:980px){
+  .hero{padding:40px 0 100px}
+  .hero .container{grid-template-columns:1fr}
+  .hero-visual{max-width:440px;margin:10px auto 0}
+  .fc1{left:0}.fc2{right:0}
+  .hero-tag{display:none}
+}
+
+/* ---------- direitos (cards do cartaz) ---------- */
+.rights{background:#fff}
+.rights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.right{padding:34px 30px 38px;text-align:center;position:relative}
+.right:not(:nth-child(3n))::after{content:"";position:absolute;right:0;top:15%;bottom:15%;width:1px;background:linear-gradient(transparent,var(--line),transparent)}
+.right:nth-child(-n+3){border-bottom:1px dashed var(--line)}
+.badge{width:96px;height:96px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;color:#fff;background:var(--c);position:relative;box-shadow:0 12px 26px color-mix(in srgb,var(--c) 35%,transparent);transition:transform .3s}
+.badge::before{content:"";position:absolute;inset:-7px;border-radius:50%;border:3px dashed color-mix(in srgb,var(--c) 40%,transparent);animation:spin 26s linear infinite}
+.right:hover .badge{transform:scale(1.06) rotate(-4deg)}
+.badge svg{width:44px;height:44px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.right h3{font-family:var(--display);font-weight:900;font-size:1.22rem;color:var(--navy);line-height:1.2;text-transform:uppercase;letter-spacing:.01em}
+.right p{color:var(--muted);margin-top:10px;font-size:1rem}
+@media (max-width:900px){.rights-grid{grid-template-columns:1fr 1fr}.right::after{display:none}.right{border-bottom:1px dashed var(--line)}}
+@media (max-width:600px){.rights-grid{grid-template-columns:1fr}}
+
+/* ---------- situações / atuação ---------- */
+.situations{background:linear-gradient(180deg,#F6F9FF,#fff)}
+.tabs{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:34px}
+.tab{padding:11px 20px;border-radius:99px;font-family:var(--display);font-weight:800;font-size:.9rem;color:var(--navy);background:#fff;border:2px solid var(--line);transition:.2s}
+.tab[aria-selected="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.tab:hover{border-color:var(--navy)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.case{background:#fff;border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);border:1px solid var(--line);position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s;display:flex;flex-direction:column}
+.case::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--c,var(--blue))}
+.case:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.case .ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:color-mix(in srgb,var(--c,var(--blue)) 12%,#fff);color:var(--c,var(--blue));margin-bottom:16px}
+.case .ic svg{width:26px;height:26px}
+.case h3{font-family:var(--display);font-weight:800;font-size:1.1rem;color:var(--navy);line-height:1.3;margin-bottom:8px}
+.case p{color:var(--muted);font-size:.97rem;flex:1}
+.case .more{margin-top:16px;font-family:var(--display);font-weight:800;font-size:.86rem;color:var(--c,var(--blue));display:inline-flex;align-items:center;gap:6px}
+.case .more:hover{gap:10px}
+.case[hidden]{display:none}
+@media (max-width:980px){.cards{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.cards{grid-template-columns:1fr}}
+
+/* ---------- avaliador ---------- */
+.quiz-wrap{background:var(--navy);color:#fff;overflow:hidden}
+.quiz-wrap::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(31,111,209,.55),transparent 65%);right:-160px;top:-160px}
+.quiz-wrap::after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(29,181,110,.35),transparent 65%);left:-140px;bottom:-160px}
+.quiz-wrap .container{position:relative;z-index:1;display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.quiz-wrap h2{font-family:var(--display);font-weight:900;font-size:clamp(1.8rem,3.4vw,2.5rem);line-height:1.15;margin:16px 0}
+.quiz-wrap .eyebrow{background:rgba(255,255,255,.12);color:#FFD866}
+.quiz-wrap p.sub{color:#C9D8F5}
+.quiz-wrap .script{color:#FFD866;font-size:1.6rem;display:block;margin-top:22px;transform:rotate(-2deg)}
+.quiz{background:#fff;color:var(--ink);border-radius:24px;padding:30px;box-shadow:0 30px 70px rgba(0,0,0,.3)}
+.quiz-step{display:none}
+.quiz-step.active{display:block;animation:fade .35s ease}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.quiz .progress{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin-bottom:22px}
+.quiz .progress i{display:block;height:100%;width:33%;background:linear-gradient(90deg,var(--blue),var(--green-2));transition:width .35s}
+.quiz h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.18rem;margin-bottom:16px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{text-align:left;padding:14px 16px;border-radius:14px;border:2px solid var(--line);font-weight:700;color:var(--navy);display:flex;gap:10px;align-items:center;transition:.2s;background:#fff}
+.opt:hover{border-color:var(--blue);background:var(--blue-soft)}
+.opt.sel{border-color:var(--green);background:var(--green-soft)}
+.opt .dot{width:18px;height:18px;border-radius:50%;border:2px solid currentColor;flex:none;opacity:.5}
+.opt.sel .dot{background:var(--green);border-color:var(--green);opacity:1;box-shadow:inset 0 0 0 3px #fff}
+.quiz-nav{display:flex;justify-content:space-between;margin-top:20px;gap:10px}
+.quiz-result{background:var(--yellow-soft);border:2px solid #F7DA85;border-radius:16px;padding:20px;margin-bottom:18px}
+.quiz-result h4{font-family:var(--display);font-weight:900;color:var(--navy);font-size:1.15rem;margin-bottom:6px}
+.quiz-result ul{margin:10px 0 0 18px;color:var(--ink)}
+.quiz-result li{margin:4px 0}
+.quiz small.note{display:block;color:var(--muted);font-size:.8rem;margin-top:12px}
+@media (max-width:980px){.quiz-wrap .container{grid-template-columns:1fr}}
+@media (max-width:520px){.opts{grid-template-columns:1fr}}
+
+/* ---------- passo a passo ---------- */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;counter-reset:s;position:relative}
+.steps::before{content:"";position:absolute;top:38px;left:8%;right:8%;height:3px;background:repeating-linear-gradient(90deg,var(--yellow) 0 12px,transparent 12px 22px)}
+.step{text-align:center;position:relative}
+.step .n{width:76px;height:76px;border-radius:50%;margin:0 auto 16px;display:grid;place-items:center;background:#fff;border:4px solid var(--c);color:var(--c);font-family:var(--display);font-weight:900;font-size:1.6rem;box-shadow:var(--shadow);position:relative;z-index:1}
+.step h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.02rem;line-height:1.3;margin-bottom:6px}
+.step p{color:var(--muted);font-size:.93rem}
+@media (max-width:980px){.steps{grid-template-columns:1fr 1fr}.steps::before{display:none}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}.step{display:grid;grid-template-columns:76px 1fr;gap:16px;text-align:left;align-items:start}.step .n{margin:0}}
+
+/* ---------- prazos ANS ---------- */
+.deadlines{background:linear-gradient(180deg,#fff,#F6F9FF)}
+.dl-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:start}
+.dl-list{background:#fff;border-radius:24px;box-shadow:var(--shadow);border:1px solid var(--line);overflow:hidden}
+.dl-row{display:grid;grid-template-columns:1fr 150px;align-items:center;gap:16px;padding:16px 22px;border-bottom:1px solid var(--line)}
+.dl-row:last-child{border-bottom:0}
+.dl-row b{color:var(--navy);font-weight:800}
+.dl-row span{color:var(--muted);font-size:.9rem;display:block}
+.dl-bar{position:relative;height:34px;background:#F1F5FB;border-radius:10px;overflow:hidden}
+.dl-bar i{position:absolute;inset:0 auto 0 0;width:0;background:var(--c);border-radius:10px;transition:width 1.2s cubic-bezier(.2,.8,.2,1)}
+.dl-bar em{position:absolute;inset:0;display:grid;place-items:center;font-style:normal;font-family:var(--display);font-weight:900;font-size:.88rem;color:var(--navy)}
+.dl-side{background:var(--navy);color:#fff;border-radius:24px;padding:30px;position:relative;overflow:hidden}
+.dl-side h3{font-family:var(--display);font-weight:900;font-size:1.3rem;margin-bottom:12px}
+.dl-side p{color:#C9D8F5;font-size:.98rem}
+.dl-side ol{margin:16px 0 0 0;list-style:none;counter-reset:d}
+.dl-side li{counter-increment:d;display:flex;gap:12px;margin:12px 0;color:#E6EEFF}
+.dl-side li::before{content:counter(d);width:28px;height:28px;border-radius:50%;background:var(--yellow);color:var(--navy);font-weight:900;display:grid;place-items:center;flex:none;font-family:var(--display);font-size:.85rem}
+.dl-side .phone{display:flex;align-items:center;gap:12px;margin-top:22px;background:rgba(255,255,255,.1);padding:14px 16px;border-radius:14px}
+.dl-side .phone b{font-family:var(--display);font-size:1.15rem}
+.dl-side .phone svg{width:28px;height:28px;color:#FFD866}
+.src{font-size:.8rem;color:var(--muted);margin-top:12px}
+@media (max-width:980px){.dl-grid{grid-template-columns:1fr}}
+@media (max-width:520px){.dl-row{grid-template-columns:1fr}}
+
+/* ---------- legislação ---------- */
+.laws{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.law{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow);border-top:5px solid var(--c)}
+.law .tag{font-family:var(--display);font-weight:900;color:var(--c);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+.law h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.02rem;margin:6px 0 8px;line-height:1.3}
+.law p{color:var(--muted);font-size:.93rem}
+.highlight-law{margin-top:26px;background:linear-gradient(135deg,var(--yellow-soft),#fff);border:2px solid #F7DA85;border-radius:22px;padding:28px;display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:start}
+.highlight-law .ic{width:64px;height:64px;border-radius:18px;background:var(--yellow);display:grid;place-items:center;color:var(--navy)}
+.highlight-law .ic svg{width:32px;height:32px}
+.highlight-law h3{font-family:var(--display);font-weight:900;color:var(--navy);font-size:1.2rem;margin-bottom:8px}
+.highlight-law ol{margin:12px 0 0 20px;color:var(--ink)}
+.highlight-law li{margin:5px 0}
+@media (max-width:980px){.laws{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.laws{grid-template-columns:1fr}.highlight-law{grid-template-columns:1fr}}
+
+/* ---------- documentos ---------- */
+.docs-wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+.docs-visual{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/3.4;background:
+  radial-gradient(circle at 20% 20%,#FFE9A8,transparent 50%),
+  linear-gradient(135deg,var(--navy),var(--blue));box-shadow:var(--shadow-lg)}
+.docs-visual img{width:100%;height:100%;object-fit:cover}
+.docs-visual .fallback{position:absolute;inset:0;display:grid;place-items:center}
+.docs-visual.has-img .fallback{display:none}
+.docs-visual .stamp{position:absolute;left:20px;bottom:20px;right:20px;background:rgba(255,255,255,.95);border-radius:16px;padding:16px 18px;display:flex;align-items:center;gap:14px}
+.docs-visual .stamp b{font-family:var(--display);color:var(--navy);font-size:1rem;display:block}
+.docs-visual .stamp small{color:var(--muted)}
+.ring{--p:0;width:58px;height:58px;border-radius:50%;flex:none;display:grid;place-items:center;background:conic-gradient(var(--green) calc(var(--p)*1%),#E3E9F2 0);transition:background .4s}
+.ring span{width:44px;height:44px;border-radius:50%;background:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:.82rem;color:var(--navy)}
+.checklist{display:grid;gap:10px;margin-top:24px}
+.chk{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border-radius:14px;border:2px solid var(--line);background:#fff;cursor:pointer;transition:.2s}
+.chk:hover{border-color:var(--blue)}
+.chk input{position:absolute;opacity:0}
+.chk .box{width:24px;height:24px;border-radius:7px;border:2px solid #B9C6DA;flex:none;display:grid;place-items:center;margin-top:2px;transition:.2s}
+.chk .box svg{width:16px;height:16px;color:#fff;opacity:0}
+.chk input:checked + .box{background:var(--green);border-color:var(--green)}
+.chk input:checked + .box svg{opacity:1}
+.chk input:focus-visible + .box{outline:3px solid var(--blue);outline-offset:2px}
+.chk b{color:var(--navy);display:block}
+.chk small{color:var(--muted);font-size:.88rem}
+@media (max-width:980px){.docs-wrap{grid-template-columns:1fr}}
+
+/* ---------- como atendemos ---------- */
+.how{background:#fff}
+.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.how-card{border-radius:22px;padding:28px 24px;background:var(--bg);border:1px solid var(--line);position:relative}
+.how-card .num{font-family:var(--script);font-size:3rem;line-height:1;color:var(--c);opacity:.9}
+.how-card h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.08rem;margin:8px 0}
+.how-card p{color:var(--muted);font-size:.95rem}
+.values{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:40px}
+.values span{display:inline-flex;align-items:center;gap:8px;background:var(--green-soft);color:#0B6B40;font-weight:800;padding:10px 16px;border-radius:99px;font-size:.92rem}
+.values svg{width:18px;height:18px}
+@media (max-width:980px){.how-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.how-grid{grid-template-columns:1fr}}
+
+/* ---------- FAQ ---------- */
+.faq{max-width:900px;margin:0 auto;display:grid;gap:12px}
+.qa{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 4px 14px rgba(14,42,92,.04);overflow:hidden}
+.qa button{width:100%;text-align:left;padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.02rem}
+.qa button .pm{width:34px;height:34px;border-radius:50%;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center;flex:none;transition:transform .3s,background .3s}
+.qa button[aria-expanded="true"] .pm{transform:rotate(45deg);background:var(--yellow);color:var(--navy)}
+.qa .ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s}
+.qa .ans>div{overflow:hidden}
+.qa .ans p{padding:0 22px 20px;color:var(--muted)}
+.qa button[aria-expanded="true"] + .ans{grid-template-rows:1fr}
+
+/* ---------- CTA final / contato ---------- */
+.cta{background:linear-gradient(135deg,#0B2350,var(--navy) 50%,#123F86);color:#fff;overflow:hidden}
+.cta::before{content:"";position:absolute;inset:auto -10% -40% -10%;height:70%;background:
+  radial-gradient(closest-side,rgba(29,181,110,.35),transparent),
+  radial-gradient(closest-side at 80% 50%,rgba(245,179,1,.25),transparent)}
+.cta .container{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.cta .script{font-size:clamp(2.4rem,5vw,3.6rem);line-height:1.05;display:block;transform:rotate(-4deg);transform-origin:left;color:#fff}
+.cta .script .y{display:inline-block;border-bottom:6px solid var(--yellow);padding-bottom:2px}
+.cta p{color:#C9D8F5;margin-top:22px;font-size:1.06rem;max-width:520px}
+.cta .contacts{display:grid;gap:12px;margin-top:26px}
+.cta .contacts a,.cta .contacts div{display:flex;gap:12px;align-items:center;color:#E6EEFF;font-weight:700}
+.cta .contacts svg{width:22px;height:22px;color:#FFD866;flex:none}
+form.contact{background:#fff;color:var(--ink);border-radius:24px;padding:30px;box-shadow:0 30px 70px rgba(0,0,0,.3)}
+form.contact h3{font-family:var(--display);font-weight:900;color:var(--navy);font-size:1.3rem}
+form.contact .hint{color:var(--muted);font-size:.92rem;margin:4px 0 18px}
+.field{display:grid;gap:6px;margin-bottom:14px}
+.field label{font-weight:800;color:var(--navy);font-size:.9rem}
+.field input,.field select,.field textarea{font:inherit;font-size:1rem;padding:13px 14px;border-radius:12px;border:2px solid var(--line);background:#FBFCFE;color:var(--ink);transition:border .2s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--blue);background:#fff}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:.84rem;color:var(--muted);margin:6px 0 16px}
+.consent input{margin-top:4px;accent-color:var(--green)}
+form.contact .btn{width:100%}
+@media (max-width:980px){.cta .container{grid-template-columns:1fr}}
+@media (max-width:520px){.row2{grid-template-columns:1fr}}
+
+/* ---------- rodapé ---------- */
+footer{background:#081A3A;color:#AFC1E0;padding:56px 0 26px;font-size:.93rem}
+.f-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:34px}
+footer h4{font-family:var(--display);color:#fff;font-weight:800;font-size:.95rem;margin-bottom:14px;letter-spacing:.04em;text-transform:uppercase}
+footer ul{list-style:none;display:grid;gap:8px}
+footer a:hover{color:#fff}
+footer .logo-text{color:#fff}
+footer .logo-sep{background:#fff}
+.f-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:40px;padding-top:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.82rem}
+.disclaimer{margin-top:16px;font-size:.82rem;line-height:1.55;color:#8EA3C7;max-width:520px}
+@media (max-width:900px){.f-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.f-grid{grid-template-columns:1fr}}
+
+/* ---------- WhatsApp flutuante ---------- */
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:62px;height:62px;border-radius:50%;background:#25D366;color:#fff;display:grid;place-items:center;box-shadow:0 12px 30px rgba(37,211,102,.45);transition:transform .2s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:32px;height:32px}
+.wa-float::before{content:"";position:absolute;inset:0;border-radius:50%;border:3px solid #25D366;animation:pulse 2.2s infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.6);opacity:0}}
+.wa-bubble{position:fixed;right:92px;bottom:30px;z-index:60;background:#fff;color:var(--navy);font-weight:800;padding:10px 14px;border-radius:14px;box-shadow:var(--shadow-lg);font-size:.88rem;opacity:0;transform:translateX(10px);transition:.4s;pointer-events:none}
+.wa-bubble.show{opacity:1;transform:none}
+@media (max-width:520px){.wa-bubble{display:none}}
+
+
+/* ================= ONCOLOGIA — complementos ================= */
+:root{ --lilac:#7B4FD6; --lilac-soft:#F1EBFD; --pink:#E05A93; --pink-soft:#FDEBF3; }
+.hero{background:
+  radial-gradient(1100px 520px at 88% -10%,#F3E9FF 0,transparent 60%),
+  radial-gradient(900px 500px at -10% 35%,#E3EEFF 0,transparent 60%),
+  radial-gradient(700px 400px at 60% 110%,#FFF3C9 0,transparent 60%),
+  linear-gradient(180deg,#fff,#F7F8FF)}
+.hero .big .g{background:linear-gradient(135deg,#7B4FD6 0%,#1F6FD1 55%,#14955A 110%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .script-title{font-size:clamp(2.1rem,4.8vw,3.5rem)}
+.hero-photo{background:
+  radial-gradient(circle at 25% 25%,#FFE9A8,transparent 50%),
+  radial-gradient(circle at 80% 75%,#E4D7FF,transparent 55%),
+  linear-gradient(135deg,#EAF2FF,#F7F2FF)}
+.hero-photo .fallback svg{width:74%}
+.eyebrow.lilac{background:var(--lilac-soft);color:var(--lilac)}
+
+/* linha do tempo legal */
+.timeline{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:10px}
+.timeline::before{content:"";position:absolute;left:6%;right:6%;top:46px;height:6px;border-radius:6px;background:linear-gradient(90deg,var(--blue),var(--lilac),var(--green-2),var(--yellow))}
+.tl{position:relative;text-align:center;padding-top:0}
+.tl .dot{width:96px;height:96px;margin:0 auto 14px;border-radius:50%;background:#fff;border:5px solid var(--c);display:grid;place-items:center;position:relative;z-index:1;box-shadow:var(--shadow)}
+.tl .dot b{font-family:var(--display);font-weight:900;font-size:1.45rem;color:var(--c);line-height:1}
+.tl .dot small{display:block;font-weight:800;font-size:.56rem;max-width:74px;text-align:center;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+.tl h3{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1rem;line-height:1.3;margin-bottom:6px}
+.tl p{color:var(--muted);font-size:.92rem}
+.tl .law-tag{display:inline-block;margin-top:8px;font-size:.74rem;font-weight:800;color:var(--c);background:color-mix(in srgb,var(--c) 10%,#fff);padding:4px 10px;border-radius:99px}
+@media (max-width:980px){.timeline{grid-template-columns:1fr 1fr}.timeline::before{display:none}}
+@media (max-width:560px){.timeline{grid-template-columns:1fr}.tl{display:grid;grid-template-columns:96px 1fr;gap:16px;text-align:left;align-items:start}.tl .dot{margin:0}}
+
+/* plano x SUS */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cmp{border-radius:24px;padding:30px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);position:relative;overflow:hidden}
+.cmp::before{content:"";position:absolute;inset:0 0 auto 0;height:8px;background:var(--c)}
+.cmp .head{display:flex;gap:14px;align-items:center;margin-bottom:16px}
+.cmp .head .ic{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;background:color-mix(in srgb,var(--c) 12%,#fff);color:var(--c);flex:none}
+.cmp .head .ic svg{width:28px;height:28px}
+.cmp h3{font-family:var(--display);font-weight:900;color:var(--navy);font-size:1.3rem}
+.cmp h3 small{display:block;font-family:var(--body);font-weight:700;color:var(--muted);font-size:.85rem}
+.cmp ul{list-style:none;display:grid;gap:12px}
+.cmp li{display:flex;gap:12px;align-items:flex-start}
+.cmp li svg{width:22px;height:22px;flex:none;color:var(--c);margin-top:2px}
+.cmp li b{color:var(--navy)}
+.cmp li span{color:var(--muted);font-size:.96rem}
+.cmp .warn{margin-top:18px;background:var(--yellow-soft);border:1.5px solid #F7DA85;border-radius:14px;padding:14px 16px;font-size:.92rem;color:var(--ink)}
+.cmp .warn b{color:var(--navy)}
+@media (max-width:900px){.compare{grid-template-columns:1fr}}
+
+/* descobridor de benefícios */
+.finder{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:start}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.chip{display:inline-flex;align-items:center;gap:8px;padding:11px 16px;border-radius:99px;border:2px solid var(--line);background:#fff;font-weight:800;color:var(--navy);font-size:.92rem;transition:.2s}
+.chip:hover{border-color:var(--lilac)}
+.chip .tick{width:18px;height:18px;border-radius:50%;border:2px solid #B9C6DA;display:grid;place-items:center;transition:.2s}
+.chip .tick svg{width:12px;height:12px;color:#fff;opacity:0}
+.chip[aria-pressed="true"]{background:var(--lilac-soft);border-color:var(--lilac)}
+.chip[aria-pressed="true"] .tick{background:var(--lilac);border-color:var(--lilac)}
+.chip[aria-pressed="true"] .tick svg{opacity:1}
+.benefits{display:grid;gap:12px}
+.ben{display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 4px 14px rgba(14,42,92,.05);transition:opacity .3s,transform .3s,filter .3s}
+.ben .ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:color-mix(in srgb,var(--c) 12%,#fff);color:var(--c)}
+.ben .ic svg{width:26px;height:26px}
+.ben h4{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1.02rem}
+.ben p{color:var(--muted);font-size:.93rem;margin-top:4px}
+.ben .lg{display:inline-block;margin-top:8px;font-size:.74rem;font-weight:800;color:var(--c);background:color-mix(in srgb,var(--c) 10%,#fff);padding:3px 10px;border-radius:99px}
+.benefits.filtered .ben:not(.match){opacity:.32;filter:grayscale(.8);transform:scale(.985)}
+.benefits.filtered .ben.match{border-color:var(--lilac);box-shadow:0 10px 26px rgba(123,79,214,.15)}
+.finder-count{margin-top:18px;font-weight:800;color:var(--navy)}
+.finder-count span{color:var(--lilac)}
+@media (max-width:980px){.finder{grid-template-columns:1fr}}
+
+.dl-side .phone + .phone{margin-top:10px}
+.quote-band{background:linear-gradient(135deg,var(--lilac-soft),#EAF2FF);border-radius:26px;padding:34px;display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center;margin-top:44px}
+.quote-band svg{width:70px;height:70px;color:var(--lilac)}
+.quote-band p{font-family:var(--script);font-size:clamp(1.3rem,2.6vw,1.8rem);color:var(--navy);line-height:1.3}
+@media (max-width:560px){.quote-band{grid-template-columns:1fr;text-align:center}.quote-band svg{margin:auto}}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LegalService",
+  "name":"Medeiros & Sebba Advogados",
+  "description":"Orientação e atuação jurídica em Direito da Saúde para pacientes oncológicos e suas famílias.",
+  "areaServed":"BR",
+  "knowsAbout":["Direitos do paciente com câncer","Quimioterapia oral","Medicamentos de alto custo","Isenção de imposto de renda por doença grave","Planos de saúde","SUS"]
+}
+</script>
+</head>
+<body>
+
+<!-- ============ TOPO ============ -->
+<div class="topbar">
+  <div class="container">
+    <span>💜 <b>Atendimento prioritário</b> para pacientes oncológicos — presencial e online</span>
+    <span class="hide-sm">Seg. a sex. · 8h às 18h</span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="container">
+    <a href="#inicio" class="logo" aria-label="Medeiros & Sebba Advogados — início">
+      <img src="assets/logo-medeiros-sebba.png" alt="Medeiros & Sebba Advogados" onerror="this.replaceWith(document.getElementById('logoTpl').content.cloneNode(true))">
+    </a>
+    <nav class="main" id="mainNav" aria-label="Principal">
+      <a href="#direitos">Seus direitos</a>
+      <a href="#prazos">Prazos da lei</a>
+      <a href="#avaliacao">Avalie seu caso</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn btn-wa header-cta" data-wa="Olá! Vim pela página de Direitos do Paciente com Câncer e gostaria de uma orientação." href="#">
+      <svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg> Fale conosco
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<template id="logoTpl">
+  <span class="logo-text">
+    <span class="logo-mark">MS</span><span class="logo-sep"></span>
+    <span class="logo-name">MEDEIROS<br>&amp; SEBBA<small>ADVOGADOS</small></span>
+  </span>
+</template>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="container">
+    <div>
+      <span class="eyebrow lilac">🎗️ Direito da Saúde · Pacientes Oncológicos</span>
+      <h1>
+        <span class="script-title">Você não está <span class="u">sozinho nessa luta!</span></span>
+        <span class="lead-small">Conheça os direitos do</span>
+        <span class="big">PACIENTE COM <span class="g">CÂNCER</span></span>
+      </h1>
+      <p class="intro">O plano negou a quimioterapia oral, a imunoterapia ou o PET-CT? O SUS não marcou o tratamento a tempo? Há dúvidas sobre FGTS, INSS ou isenção de imposto de renda? No tratamento do câncer, tempo é saúde — e a lei garante prazos e direitos que precisam ser respeitados.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-wa" data-wa="Olá! Sou paciente oncológico (ou familiar) e gostaria que analisassem meu caso." href="#">
+          <svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg> Quero falar com a equipe
+        </a>
+        <a class="btn btn-ghost" href="#avaliacao">Entender meu caso em 1 minuto →</a>
+      </div>
+      <div class="trust">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Atendimento prioritário</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Plano de saúde e SUS</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Benefícios e isenções</span>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-photo" id="heroPhoto">
+        <img src="assets/hero-oncologia.jpg" alt="" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
+        <div class="fallback">
+          <svg viewBox="0 0 240 240">
+            <defs>
+              <linearGradient id="rb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9B6CF0"/><stop offset="1" stop-color="#6A3CC8"/></linearGradient>
+              <linearGradient id="hg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F6FD1"/><stop offset=".6" stop-color="#14955A"/><stop offset="1" stop-color="#1DB56E"/></linearGradient>
+            </defs>
+            <circle cx="120" cy="120" r="104" fill="#fff" opacity=".55"/>
+            <path d="M120 206C66 166 36 138 36 104c0-24 19-42 42-42 17 0 32 9 42 23 10-14 25-23 42-23 23 0 42 18 42 42 0 34-30 62-84 102z" fill="url(#hg2)" opacity=".18"/>
+            <path d="M120 40c-20 0-34 15-34 34 0 18 12 38 26 56L74 196l22 6 24-48 24 48 22-6-38-66c14-18 26-38 26-56 0-19-14-34-34-34zm0 20c9 0 15 7 15 15 0 9-7 22-15 33-8-11-15-24-15-33 0-8 6-15 15-15z" fill="url(#rb)"/>
+            <path d="M86 196l22 6 12-24-11-20z" fill="#5A2FB0" opacity=".5"/>
+            <path d="M40 160c50 22 120 18 168-26" fill="none" stroke="#F5B301" stroke-width="7" stroke-linecap="round"/>
+            <circle cx="196" cy="66" r="10" fill="#F5B301"/><circle cx="46" cy="84" r="7" fill="#1DB56E"/><circle cx="210" cy="176" r="6" fill="#1F6FD1"/>
+          </svg>
+        </div>
+      </div>
+      <div class="float-card fc1"><span class="ic" style="background:var(--lilac)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><use href="#i-clock"/></svg></span><span>Início em até 60 dias<small>Lei 12.732/2012 (SUS)</small></span></div>
+      <div class="float-card fc2"><span class="ic" style="background:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><use href="#i-pill"/></svg></span><span>Quimioterapia oral<small>Cobertura pelo plano</small></span></div>
+      <div class="hero-tag">Cuidar de você<br>é prioridade!</div>
+    </div>
+  </div>
+  <div class="wave"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 50c240 40 480 40 720 10s480-40 720 0v30H0z" fill="#fff"/><path d="M0 70c300-30 560 20 820 5s420-40 620-15" fill="none" stroke="#7B4FD6" stroke-width="4" opacity=".45"/></svg></div>
+</section>
+
+<!-- ============ 6 DIREITOS ============ -->
+<section class="section rights" id="direitos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow lilac">Fique por dentro</span>
+      <h2>Direitos que todo paciente oncológico <span class="brush">precisa conhecer</span></h2>
+      <p>O Estatuto da Pessoa com Câncer (Lei 14.238/2021) garante diagnóstico precoce, tratamento adequado, informação clara, prioridade e assistência social e jurídica. Veja os principais pontos.</p>
+    </div>
+    <div class="rights-grid">
+      <article class="right reveal" style="--c:var(--lilac)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-clock"/></svg></div>
+        <h3>Tratamento<br>no tempo certo</h3>
+        <p>No SUS, exames para confirmar a suspeita em até 30 dias e início do tratamento em até 60 dias após o laudo patológico.</p>
+        <span class="stroke" style="--c:var(--lilac)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--blue)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-pill"/></svg></div>
+        <h3>Quimioterapia<br>oral e domiciliar</h3>
+        <p>A Lei dos Planos de Saúde prevê cobertura de antineoplásicos orais de uso domiciliar e dos remédios para controlar seus efeitos adversos.</p>
+        <span class="stroke" style="--c:var(--blue)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--green)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-dna"/></svg></div>
+        <h3>Exames e terapias<br>de alto custo</h3>
+        <p>Radioterapia, imunoterapia, terapia-alvo, PET-CT e testes genéticos podem ser exigidos conforme o rol da ANS, o contrato e os critérios legais.</p>
+        <span class="stroke" style="--c:var(--green)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--pink)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-ribbon"/></svg></div>
+        <h3>Cirurgia<br>reparadora</h3>
+        <p>Reconstrução da mama após a mastectomia, pelo plano ou pelo SUS, incluindo a simetrização da outra mama e do complexo aréolo-mamilar.</p>
+        <span class="stroke" style="--c:var(--pink)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--yellow)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-coin2"/></svg></div>
+        <h3>Renda e<br>benefícios</h3>
+        <p>Saque do FGTS, auxílio por incapacidade sem exigência de carência e, conforme o caso, aposentadoria por incapacidade ou BPC/LOAS.</p>
+        <span class="stroke" style="--c:var(--yellow)"></span>
+      </article>
+      <article class="right reveal" style="--c:var(--teal)">
+        <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-tax"/></svg></div>
+        <h3>Isenção de<br>imposto de renda</h3>
+        <p>Aposentados, pensionistas e reformados com câncer não pagam IR sobre esses rendimentos — mesmo após a cura — e podem reaver até 5 anos.</p>
+        <span class="stroke" style="--c:var(--teal)"></span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LINHA DO TEMPO / PRAZOS ============ -->
+<section class="section deadlines" id="prazos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow lilac">Tempo é saúde</span>
+      <h2>Os prazos que a <span class="brush">lei garante</span></h2>
+      <p>Conheça a linha do tempo prevista na legislação. Quando um prazo é descumprido, existem caminhos para exigir o atendimento.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="tl reveal" style="--c:var(--blue)"><div class="dot"><b>30</b><small>dias</small></div><h3>Suspeita de câncer</h3><p>Exames para confirmar o diagnóstico no SUS, com pedido fundamentado do médico.</p><span class="law-tag">Lei 13.896/2019</span></div>
+      <div class="tl reveal" style="--c:var(--lilac)"><div class="dot"><b>60</b><small>dias</small></div><h3>Início do tratamento</h3><p>Cirurgia, quimio ou radioterapia no SUS, contados do laudo patológico — ou antes, se o caso exigir.</p><span class="law-tag">Lei 12.732/2012</span></div>
+      <div class="tl reveal" style="--c:var(--green)"><div class="dot"><b>21</b><small>dias úteis</small></div><h3>Alta complexidade no plano</h3><p>Prazo máximo da ANS para procedimentos de alta complexidade e internação eletiva.</p><span class="law-tag">RN ANS 566/2022</span></div>
+      <div class="tl reveal" style="--c:var(--red)"><div class="dot"><b>24</b><small>horas</small></div><h3>Urgência e emergência</h3><p>Carência máxima no plano de saúde para atendimentos de urgência e emergência.</p><span class="law-tag">Lei 9.656/98</span></div>
+      <div class="tl reveal" style="--c:var(--yellow)"><div class="dot"><b>∞</b><small>prioridade</small></div><h3>Dor e prioridade</h3><p>Acesso prioritário e gratuito a analgésicos no SUS e tramitação prioritária de processos.</p><span class="law-tag">Lei 12.732 · CPC 1.048</span></div>
+    </div>
+
+    <div class="quote-band reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><use href="#i-heart"/></svg>
+      <p>“O diagnóstico já é pesado demais. Cuidar da parte burocrática e jurídica é com a gente — você cuida da sua saúde.”</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SITUAÇÕES ============ -->
+<section class="section situations" id="situacoes">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow lilac">Como podemos ajudar</span>
+      <h2>Situações em que você <span class="brush">pode ter direitos</span></h2>
+      <p>Cada caso é único e depende do relatório médico e dos documentos. Escolha um tema para filtrar.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Filtrar situações">
+      <button class="tab" role="tab" aria-selected="true" data-filter="all">Todos</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="plano">Plano de saúde</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="sus">SUS</button>
+      <button class="tab" role="tab" aria-selected="false" data-filter="renda">Renda, trabalho e impostos</button>
+    </div>
+
+    <div class="cards">
+      <article class="case reveal" data-cat="plano" style="--c:var(--blue)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-pill"/></svg></div>
+        <h3>Quimioterapia oral negada</h3>
+        <p>Recusas por “uso domiciliar” ou por “não constar no contrato” contrariam a Lei 9.656/98 quando o antineoplásico oral tem cobertura prevista.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano negou a quimioterapia oral. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="plano" style="--c:var(--lilac)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-dna"/></svg></div>
+        <h3>Imunoterapia, terapia-alvo e alto custo</h3>
+        <p>Medicamentos fora do rol ou com uso off-label podem ser exigidos quando preenchidos os critérios fixados pelo STF em 2025. A análise técnica é decisiva.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano negou imunoterapia/medicamento de alto custo. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="plano" style="--c:var(--green)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-scan"/></svg></div>
+        <h3>PET-CT, exames genéticos e radioterapia</h3>
+        <p>Exames de estadiamento, testes genéticos e técnicas de radioterapia (como IMRT) negados ou com demora acima dos prazos da ANS.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano negou exame/radioterapia oncológica. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="plano" style="--c:var(--pink)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-scalpel"/></svg></div>
+        <h3>Cirurgias e materiais negados</h3>
+        <p>Cirurgia oncológica, robótica quando indicada, próteses e materiais ligados ao ato cirúrgico e reconstrução mamária pós-mastectomia.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano negou cirurgia oncológica/reconstrução. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="plano" style="--c:var(--red)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-x"/></svg></div>
+        <h3>Cancelamento ou reajuste durante o tratamento</h3>
+        <p>Segundo o STJ, mesmo com rescisão de plano coletivo, a operadora deve manter o tratamento em curso até a alta, com o pagamento das mensalidades.</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano foi cancelado/reajustado durante o tratamento do câncer.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="plano" style="--c:var(--yellow)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-doc"/></svg></div>
+        <h3>“Doença preexistente” e carência</h3>
+        <p>A recusa por doença preexistente é ilícita se a operadora não exigiu exames prévios nem provou má-fé (Súmula 609 do STJ).</p>
+        <a class="more" href="#" data-wa="Olá! Meu plano alegou doença preexistente/carência para negar o tratamento.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="sus" style="--c:var(--lilac)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-clock"/></svg></div>
+        <h3>Demora para iniciar o tratamento</h3>
+        <p>Passou dos 60 dias do diagnóstico (ou dos 30 dias para exames) sem cirurgia, quimio ou radioterapia? É possível exigir o cumprimento.</p>
+        <a class="more" href="#" data-wa="Olá! O SUS está demorando para iniciar meu tratamento oncológico.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="sus" style="--c:var(--teal)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-hospital"/></svg></div>
+        <h3>Medicamento oncológico pelo SUS</h3>
+        <p>Remédios incorporados devem ser fornecidos. Para os não incorporados, o STF fixou requisitos rigorosos (Temas 6 e 1234) que exigem preparo técnico.</p>
+        <a class="more" href="#" data-wa="Olá! Preciso de um medicamento oncológico pelo SUS. Gostaria de orientação.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="sus" style="--c:var(--blue)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-bus"/></svg></div>
+        <h3>Tratamento fora do domicílio</h3>
+        <p>Quando o tratamento ocorre em outra cidade, o SUS pode garantir transporte e ajuda de custo, conforme as regras do TFD e a disponibilidade local.</p>
+        <a class="more" href="#" data-wa="Olá! Preciso de orientação sobre Tratamento Fora do Domicílio (TFD).">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="renda" style="--c:var(--teal)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-tax"/></svg></div>
+        <h3>Isenção e restituição de IR</h3>
+        <p>Aposentados, pensionistas e reformados podem deixar de pagar IR e pedir de volta o que foi descontado nos últimos 5 anos.</p>
+        <a class="more" href="#" data-wa="Olá! Quero orientação sobre isenção/restituição de imposto de renda por câncer.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="renda" style="--c:var(--yellow)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-shield"/></svg></div>
+        <h3>INSS negou o benefício</h3>
+        <p>Auxílio por incapacidade e aposentadoria por incapacidade dispensam carência para neoplasia maligna, desde que haja qualidade de segurado.</p>
+        <a class="more" href="#" data-wa="Olá! O INSS negou meu benefício durante o tratamento do câncer.">Falar sobre isso →</a>
+      </article>
+      <article class="case reveal" data-cat="renda" style="--c:var(--red)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-briefcase"/></svg></div>
+        <h3>Demissão durante o tratamento</h3>
+        <p>A dispensa de empregado com doença grave que gere estigma pode ser presumida discriminatória (Súmula 443 do TST), conforme o caso.</p>
+        <a class="more" href="#" data-wa="Olá! Fui demitido(a) durante o tratamento do câncer.">Falar sobre isso →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AVALIADOR ============ -->
+<section class="section quiz-wrap" id="avaliacao">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow">Ferramenta gratuita</span>
+      <h2>Entenda seu caso em 1 minuto</h2>
+      <p class="sub">Responda 3 perguntas rápidas e veja os direitos que podem se aplicar, os primeiros passos e os documentos que ajudam na análise.</p>
+      <span class="script">Informação também é cuidado!</span>
+    </div>
+
+    <div class="quiz reveal" id="quiz" aria-live="polite">
+      <div class="progress"><i id="qBar"></i></div>
+
+      <div class="quiz-step active" data-step="1">
+        <h3>1. O que está acontecendo?</h3>
+        <div class="opts" data-key="problema">
+          <button class="opt" data-v="quimio"><span class="dot"></span>Plano negou medicamento ou quimio</button>
+          <button class="opt" data-v="exame"><span class="dot"></span>Plano negou exame, cirurgia ou radioterapia</button>
+          <button class="opt" data-v="sus"><span class="dot"></span>SUS está demorando ou negou</button>
+          <button class="opt" data-v="contrato"><span class="dot"></span>Plano cancelou ou reajustou</button>
+          <button class="opt" data-v="beneficio"><span class="dot"></span>INSS, FGTS ou imposto de renda</button>
+          <button class="opt" data-v="trabalho"><span class="dot"></span>Problema no trabalho</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="2">
+        <h3>2. Em que fase está o tratamento?</h3>
+        <div class="opts" data-key="fase">
+          <button class="opt" data-v="suspeita"><span class="dot"></span>Ainda investigando o diagnóstico</button>
+          <button class="opt" data-v="aguardando"><span class="dot"></span>Diagnosticado, aguardando iniciar</button>
+          <button class="opt" data-v="tratando"><span class="dot"></span>Em tratamento agora</button>
+          <button class="opt" data-v="concluido"><span class="dot"></span>Concluído / em acompanhamento</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="3">
+        <h3>3. Quais documentos você já tem?</h3>
+        <div class="opts" data-key="docs">
+          <button class="opt" data-v="ambos"><span class="dot"></span>Relatório médico e negativa por escrito</button>
+          <button class="opt" data-v="relatorio"><span class="dot"></span>Só o relatório/prescrição médica</button>
+          <button class="opt" data-v="negativa"><span class="dot"></span>Só a negativa ou protocolo</button>
+          <button class="opt" data-v="nenhum"><span class="dot"></span>Ainda não tenho nenhum</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="4">
+        <div class="quiz-result" id="qResult"></div>
+        <a class="btn btn-wa" id="qWa" href="#" target="_blank" rel="noopener" style="width:100%">
+          <svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg> Enviar meu caso para a equipe
+        </a>
+        <small class="note">Esta orientação é informativa e não substitui a análise jurídica individual do seu caso.</small>
+      </div>
+
+      <div class="quiz-nav">
+        <button class="btn btn-ghost" id="qBack" style="padding:12px 18px;visibility:hidden">← Voltar</button>
+        <button class="btn btn-ghost" id="qReset" style="padding:12px 18px;display:none">Recomeçar</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANO x SUS ============ -->
+<section class="section" id="plano-sus" style="background:#fff">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow lilac">Dois caminhos</span>
+      <h2>Plano de saúde ou SUS: <span class="brush">o que muda?</span></h2>
+      <p>Os direitos e as exigências são diferentes em cada caminho. Entender isso evita perda de tempo — e o tempo é precioso no tratamento.</p>
+    </div>
+    <div class="compare">
+      <div class="cmp reveal" style="--c:var(--blue)">
+        <div class="head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-card"/></svg></span><h3>Pelo plano de saúde<small>Lei 9.656/98 · CDC · normas da ANS</small></h3></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg><span><b>Quimioterapia e radioterapia</b> ambulatoriais e hospitalares, incluindo antineoplásicos orais de uso domiciliar.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg><span><b>Negativa por escrito:</b> você pode exigir o motivo formal da recusa, com indicação da cláusula ou norma.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg><span><b>Fora do rol:</b> possível quando houver prescrição, ausência de alternativa no rol, evidência científica de alto nível e registro na Anvisa (STF, ADI 7.265).</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg><span><b>Continuidade:</b> tratamento em curso deve ser mantido até a alta, mesmo se o plano coletivo for rescindido (STJ, Tema 1.082).</span></li>
+        </ul>
+        <div class="warn"><b>Atenção:</b> medicamento sem registro na Anvisa, em regra, não precisa ser custeado pelo plano (STJ, Tema 990).</div>
+      </div>
+      <div class="cmp reveal" style="--c:var(--green)">
+        <div class="head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-hospital"/></svg></span><h3>Pelo SUS<small>Lei 8.080/90 · Lei 12.732/2012 · Lei 14.758/2023</small></h3></div>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg><span><b>Tratamento gratuito</b> de todas as etapas necessárias, nos serviços habilitados em oncologia.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg><span><b>Prazos legais:</b> até 30 dias para exames de confirmação e até 60 dias para iniciar o tratamento.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg><span><b>Medicamento incorporado</b> deve ser fornecido; a falta pode ser cobrada administrativa ou judicialmente.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg><span><b>Não incorporado:</b> exige negativa administrativa, laudo minucioso, ausência de substituto no SUS, evidência científica de alto nível e incapacidade financeira (STF, Temas 6 e 1234).</span></li>
+        </ul>
+        <div class="warn"><b>Atenção:</b> desde 2024, o valor anual do medicamento define se a ação corre na Justiça Federal ou Estadual — um erro aqui atrasa o caso.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PASSO A PASSO ============ -->
+<section class="section" id="passos" style="background:linear-gradient(180deg,#F6F9FF,#fff)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow lilac">Recebeu uma negativa?</span>
+      <h2>O que fazer, <span class="brush">passo a passo</span></h2>
+      <p>No câncer, cada dia conta. Organizar os documentos desde o início acelera a solução.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal" style="--c:var(--blue)"><div class="n">1</div><h3>Peça a negativa por escrito</h3><p>Do plano ou da unidade do SUS, com o motivo e o número de protocolo de cada contato.</p></div>
+      <div class="step reveal" style="--c:var(--lilac)"><div class="n">2</div><h3>Relatório médico completo</h3><p>Com CID, estadiamento, tratamento indicado, por que não há alternativa e o risco da demora.</p></div>
+      <div class="step reveal" style="--c:var(--yellow)"><div class="n">3</div><h3>Reúna exames e laudos</h3><p>Anatomopatológico, imuno-histoquímica, exames de imagem e histórico de tratamentos já feitos.</p></div>
+      <div class="step reveal" style="--c:var(--green)"><div class="n">4</div><h3>Registre reclamação</h3><p>Plano: ANS (0800 701 9656). SUS: Ouvidoria (136) e Secretaria de Saúde.</p></div>
+      <div class="step reveal" style="--c:var(--red)"><div class="n">5</div><h3>Busque orientação jurídica</h3><p>Com risco à saúde, pode ser cabível pedido de liminar (tutela de urgência), analisado com prioridade.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESCOBRIDOR DE BENEFÍCIOS ============ -->
+<section class="section" id="beneficios" style="background:#fff">
+  <div class="container finder">
+    <div class="reveal" style="position:sticky;top:110px">
+      <span class="eyebrow lilac">Ferramenta interativa</span>
+      <h2 style="font-family:var(--display);font-weight:900;color:var(--navy);font-size:clamp(1.7rem,3.2vw,2.4rem);line-height:1.15;margin:14px 0 8px">Descubra os benefícios que podem se aplicar a você</h2>
+      <p style="color:var(--muted)">Marque o que descreve a sua situação (ou a do seu familiar). Os benefícios compatíveis ficam em destaque.</p>
+      <div class="chips" id="chips">
+        <button class="chip" aria-pressed="false" data-tag="clt"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><use href="#i-check"/></svg></span>Tenho carteira assinada / FGTS</button>
+        <button class="chip" aria-pressed="false" data-tag="dep"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><use href="#i-check"/></svg></span>O paciente é meu dependente</button>
+        <button class="chip" aria-pressed="false" data-tag="inss"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><use href="#i-check"/></svg></span>Contribuo para o INSS</button>
+        <button class="chip" aria-pressed="false" data-tag="apos"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><use href="#i-check"/></svg></span>Sou aposentado(a) ou pensionista</button>
+        <button class="chip" aria-pressed="false" data-tag="renda"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><use href="#i-check"/></svg></span>Família de baixa renda</button>
+        <button class="chip" aria-pressed="false" data-tag="casa"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><use href="#i-check"/></svg></span>Tenho financiamento da casa própria</button>
+        <button class="chip" aria-pressed="false" data-tag="sequela"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><use href="#i-check"/></svg></span>O tratamento deixou sequela física</button>
+        <button class="chip" aria-pressed="false" data-tag="processo"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5"><use href="#i-check"/></svg></span>Tenho processo na Justiça</button>
+      </div>
+      <p class="finder-count" id="finderCount">Selecione uma ou mais opções acima.</p>
+    </div>
+
+    <div class="benefits" id="benefits">
+      <div class="ben reveal" data-tags="clt dep" style="--c:var(--green)"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-wallet"/></svg></span><div><h4>Saque do FGTS</h4><p>O trabalhador pode sacar o saldo quando ele próprio ou um dependente tiver neoplasia maligna, e repetir o saque enquanto houver saldo e a doença persistir.</p><span class="lg">Lei 8.036/90, art. 20, XI</span></div></div>
+      <div class="ben reveal" data-tags="inss" style="--c:var(--blue)"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-shield"/></svg></span><div><h4>Auxílio por incapacidade temporária</h4><p>Sem exigência das 12 contribuições de carência para neoplasia maligna, desde que haja qualidade de segurado e incapacidade comprovada em perícia.</p><span class="lg">Lei 8.213/91, arts. 26, II e 151</span></div></div>
+      <div class="ben reveal" data-tags="inss" style="--c:var(--lilac)"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-user"/></svg></span><div><h4>Aposentadoria por incapacidade permanente</h4><p>Quando a perícia reconhece incapacidade definitiva. Também dispensa carência. Pode haver acréscimo de 25% se o segurado precisar de assistência permanente de outra pessoa.</p><span class="lg">Lei 8.213/91, arts. 42 e 45</span></div></div>
+      <div class="ben reveal" data-tags="apos" style="--c:var(--teal)"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-tax"/></svg></span><div><h4>Isenção e restituição do Imposto de Renda</h4><p>Sobre aposentadoria, pensão ou reforma, mesmo sem sintomas atuais ou após a cura (Súmula 627 do STJ). É possível pedir a devolução dos últimos 5 anos.</p><span class="lg">Lei 7.713/88, art. 6º, XIV</span></div></div>
+      <div class="ben reveal" data-tags="renda" style="--c:var(--yellow)"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-coin2"/></svg></span><div><h4>BPC/LOAS</h4><p>Um salário mínimo mensal para pessoa idosa (65+) ou com impedimento de longo prazo, com renda familiar por pessoa de até 1/4 do salário mínimo, avaliada caso a caso.</p><span class="lg">Lei 8.742/93, art. 20</span></div></div>
+      <div class="ben reveal" data-tags="casa" style="--c:var(--pink)"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-house"/></svg></span><div><h4>Quitação do financiamento habitacional</h4><p>O seguro obrigatório do financiamento pode quitar o saldo em caso de invalidez permanente, conforme a apólice e a proporção de renda do contrato.</p><span class="lg">Seguro habitacional (MIP)</span></div></div>
+      <div class="ben reveal" data-tags="sequela" style="--c:var(--red)"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-car"/></svg></span><div><h4>Isenções na compra de veículo</h4><p>Não decorrem do câncer em si, mas de deficiência física resultante (ex.: amputação, limitação de membros). Envolve IPI, IOF e, conforme o estado, ICMS e IPVA.</p><span class="lg">Lei 8.989/95 e leis estaduais</span></div></div>
+      <div class="ben reveal" data-tags="processo" style="--c:var(--navy-2)"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-scale"/></svg></span><div><h4>Prioridade na tramitação</h4><p>Processos judiciais e administrativos de pessoa com doença grave têm tramitação prioritária, mediante pedido com comprovação.</p><span class="lg">CPC, art. 1.048, I · Lei 14.238/2021</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEGISLAÇÃO ============ -->
+<section class="section" id="leis" style="background:linear-gradient(180deg,#fff,#F6F9FF)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow lilac">Base legal</span>
+      <h2>O que diz a <span class="brush">lei</span></h2>
+      <p>As principais normas que protegem o paciente oncológico, em linguagem simples.</p>
+    </div>
+    <div class="laws">
+      <div class="law reveal" style="--c:var(--lilac)"><span class="tag">Lei 14.238/2021</span><h3>Estatuto da Pessoa com Câncer</h3><p>Diagnóstico precoce, tratamento adequado e menos nocivo, informação clara, acompanhante, prioridade e assistência social e jurídica.</p></div>
+      <div class="law reveal" style="--c:var(--blue)"><span class="tag">Lei 12.732/2012</span><h3>Lei dos 60 dias</h3><p>Tratamento gratuito no SUS, início em até 60 dias e, desde a Lei 13.896/2019, exames de confirmação em até 30 dias.</p></div>
+      <div class="law reveal" style="--c:var(--green)"><span class="tag">Lei 9.656/98</span><h3>Lei dos Planos de Saúde</h3><p>Cobertura de quimio e radioterapia, antineoplásicos orais (Lei 12.880/2013) e reconstrução mamária (art. 10-A).</p></div>
+      <div class="law reveal" style="--c:var(--yellow)"><span class="tag">Lei 14.307/2022</span><h3>Antineoplásicos orais no rol</h3><p>Prazos mais curtos para a ANS analisar a inclusão de remédios orais contra o câncer no rol de cobertura obrigatória.</p></div>
+      <div class="law reveal" style="--c:var(--pink)"><span class="tag">Leis 9.797/99 e 13.770/2018</span><h3>Reconstrução mamária</h3><p>Pelo SUS e pelos planos, de preferência no mesmo ato da mastectomia, incluindo simetrização e reconstrução da aréola.</p></div>
+      <div class="law reveal" style="--c:var(--teal)"><span class="tag">Lei 14.758/2023</span><h3>Política Nacional do Câncer</h3><p>Diretrizes de prevenção, diagnóstico, tratamento, reabilitação e cuidados paliativos no SUS.</p></div>
+      <div class="law reveal" style="--c:var(--red)"><span class="tag">Lei 7.713/88 · Súmulas 598 e 627 STJ</span><h3>Isenção de IR</h3><p>Rendimentos de aposentadoria, pensão e reforma. Na Justiça, o laudo pode ser de médico particular e não se exige doença ativa.</p></div>
+      <div class="law reveal" style="--c:var(--purple)"><span class="tag">Súmulas 608 e 609 STJ</span><h3>CDC e doença preexistente</h3><p>O CDC se aplica aos planos (exceto autogestão) e a recusa por preexistência sem exame prévio ou prova de má-fé é ilícita.</p></div>
+    </div>
+
+    <div class="highlight-law reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><use href="#i-scale"/></svg></div>
+      <div>
+        <h3>Medicamento fora do rol da ANS: o que mudou em 2025</h3>
+        <p>A Lei 14.454/2022 permitiu a cobertura além do rol. Em setembro de 2025, o STF (ADI 7.265) confirmou essa possibilidade, mas exigiu que todos estes critérios estejam presentes ao mesmo tempo:</p>
+        <ol>
+          <li>Prescrição por médico ou dentista assistente habilitado;</li>
+          <li>Ausência de negativa expressa da ANS ou de análise pendente para inclusão no rol;</li>
+          <li>Inexistência de alternativa terapêutica adequada já prevista no rol;</li>
+          <li>Comprovação de eficácia e segurança com evidências científicas de alto nível;</li>
+          <li>Registro do medicamento na Anvisa.</li>
+        </ol>
+        <p style="margin-top:10px;color:var(--muted)">Na oncologia, isso torna essencial um relatório médico que explique os tratamentos já feitos, por que as opções do rol não servem e quais estudos embasam a indicação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DOCUMENTOS ============ -->
+<section class="section" id="documentos" style="background:#fff">
+  <div class="container docs-wrap">
+    <div class="docs-visual reveal" id="docsVisual" style="background:radial-gradient(circle at 20% 20%,#FFE9A8,transparent 50%),linear-gradient(135deg,#3B1F7A,var(--lilac) 55%,var(--blue))">
+      <div class="fallback" aria-hidden="true">
+        <svg viewBox="0 0 220 170" width="62%"><rect x="34" y="14" width="130" height="150" rx="14" fill="#fff" opacity=".95"/><rect x="54" y="38" width="70" height="9" rx="4.5" fill="#7B4FD6"/><rect x="54" y="58" width="90" height="7" rx="3.5" fill="#E3E9F2"/><rect x="54" y="72" width="80" height="7" rx="3.5" fill="#E3E9F2"/><rect x="54" y="86" width="88" height="7" rx="3.5" fill="#E3E9F2"/><rect x="54" y="100" width="60" height="7" rx="3.5" fill="#F5B301"/><circle cx="160" cy="128" r="30" fill="#1DB56E"/><path d="M146 128l10 10 18-20" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="stamp">
+        <div class="ring" id="docRing"><span id="docPct">0%</span></div>
+        <div><b>Sua pasta de documentos</b><small>Marque o que você já tem em mãos</small></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow lilac">Checklist</span>
+      <h2 style="font-family:var(--display);font-weight:900;color:var(--navy);font-size:clamp(1.7rem,3.2vw,2.4rem);line-height:1.15;margin:14px 0 8px">Documentos que ajudam na análise do seu caso</h2>
+      <p style="color:var(--muted)">Não tem tudo? Começamos com o que você tiver e orientamos sobre o restante — inclusive sobre o que pedir ao seu oncologista.</p>
+      <div class="checklist" id="checklist">
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Documentos pessoais</b><small>RG, CPF e comprovante de residência do paciente</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Relatório médico detalhado</b><small>CID, estadiamento, tratamento indicado, tratamentos anteriores e urgência</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Prescrição / receita</b><small>Com nome do medicamento, dose, duração e posologia</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Laudo anatomopatológico e exames</b><small>Biópsia, imuno-histoquímica, exames de imagem</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Negativa por escrito ou protocolo</b><small>Do plano, da unidade do SUS ou do INSS</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Contrato e carteirinha do plano</b><small>E comprovantes de pagamento das últimas mensalidades</small></span></label>
+        <label class="chk"><input type="checkbox"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><use href="#i-check"/></svg></span><span><b>Comprovantes de renda</b><small>Para ações contra o SUS, benefícios e isenção de IR</small></span></label>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO ATENDEMOS ============ -->
+<section class="section how" id="atendimento" style="background:linear-gradient(180deg,#F6F9FF,#fff)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow lilac">Nosso atendimento</span>
+      <h2>Cuidado jurídico com <span class="brush">olhar humano</span></h2>
+      <p>Sabemos que o paciente e a família já carregam muito. Por isso, explicamos tudo com calma, cuidamos da burocracia e tratamos cada caso com urgência e respeito.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-card reveal" style="--c:var(--lilac)"><span class="num">01</span><h3>Escuta e acolhimento</h3><p>Você — ou um familiar — conta o que aconteceu por WhatsApp, telefone, vídeo ou presencialmente.</p></div>
+      <div class="how-card reveal" style="--c:var(--blue)"><span class="num">02</span><h3>Análise técnica</h3><p>Avaliamos relatório médico, negativa, contrato e normas aplicáveis, inclusive os critérios do STF.</p></div>
+      <div class="how-card reveal" style="--c:var(--green)"><span class="num">03</span><h3>Caminho mais rápido</h3><p>Indicamos se cabe solução administrativa ou pedido judicial com liminar, com riscos e prazos realistas.</p></div>
+      <div class="how-card reveal" style="--c:var(--yellow)"><span class="num">04</span><h3>Acompanhamento</h3><p>Você é informado de cada etapa. Processos eletrônicos permitem atuação em todo o Brasil.</p></div>
+    </div>
+    <div class="values reveal">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Prioridade para casos urgentes</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Linguagem simples</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Sigilo profissional</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><use href="#i-check"/></svg>Atendimento à família</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="duvidas" style="background:#fff">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow lilac">Perguntas frequentes</span>
+      <h2>Tire suas <span class="brush">dúvidas</span></h2>
+    </div>
+    <div class="faq" id="faq">
+      <div class="qa reveal"><button aria-expanded="false">O plano de saúde é obrigado a cobrir quimioterapia oral em casa?<span class="pm">+</span></button><div class="ans"><div><p>A Lei 9.656/98, alterada pela Lei 12.880/2013, inclui na cobertura os tratamentos antineoplásicos de uso oral e domiciliar, além dos medicamentos para controlar efeitos adversos, conforme as diretrizes da ANS. A alegação genérica de “uso domiciliar” não basta para negar. Medicamentos que ainda não estão no rol seguem os critérios do STF de 2025.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">O plano pode negar porque o remédio não está no rol da ANS ou é “off-label”?<span class="pm">+</span></button><div class="ans"><div><p>Não automaticamente. Desde a decisão do STF na ADI 7.265 (2025), a cobertura fora do rol é possível quando há, ao mesmo tempo, prescrição médica, ausência de alternativa no rol, evidência científica de alto nível, registro na Anvisa e inexistência de negativa ou análise pendente da ANS. Por isso o relatório médico precisa ser bem fundamentado.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Quanto tempo o SUS tem para começar meu tratamento?<span class="pm">+</span></button><div class="ans"><div><p>Até 60 dias a partir do diagnóstico confirmado em laudo patológico, ou menos se o caso exigir (Lei 12.732/2012). Se ainda há apenas suspeita, os exames de confirmação devem ser feitos em até 30 dias, mediante pedido fundamentado do médico (Lei 13.896/2019).</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Posso conseguir pelo SUS um remédio que não está na lista oficial?<span class="pm">+</span></button><div class="ans"><div><p>É possível, mas os requisitos são rigorosos. Pelos Temas 6 e 1234 do STF, é preciso comprovar negativa administrativa, ausência de substituto no SUS, eficácia por estudos de alto nível, laudo médico minucioso e incapacidade financeira de arcar com o custo. O valor anual do medicamento também define qual Justiça julga o caso.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Já terminei o tratamento. Ainda tenho direito à isenção do imposto de renda?<span class="pm">+</span></button><div class="ans"><div><p>Sim, se você é aposentado, pensionista ou reformado. Pela Súmula 627 do STJ, não é preciso demonstrar sintomas atuais nem recidiva. A isenção vale para esses rendimentos (não para salário de quem está na ativa) e é possível pedir a restituição do IR pago nos últimos 5 anos.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Quem tem câncer pode sacar o FGTS?<span class="pm">+</span></button><div class="ans"><div><p>Sim. A Lei 8.036/90 (art. 20, XI) permite o saque quando o trabalhador ou qualquer dependente tiver neoplasia maligna. O pedido é feito na Caixa com laudo e atestado médico, e pode ser repetido enquanto a doença persistir e houver saldo.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">O INSS exige carência para pagar auxílio a quem tem câncer?<span class="pm">+</span></button><div class="ans"><div><p>Não. Para neoplasia maligna, a lei dispensa as 12 contribuições de carência do auxílio por incapacidade temporária e da aposentadoria por incapacidade permanente. Mas é preciso ter qualidade de segurado e comprovar a incapacidade na perícia. Se a doença começou antes da filiação ao INSS, o caso exige análise específica.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Quanto tempo leva para conseguir o tratamento na Justiça?<span class="pm">+</span></button><div class="ans"><div><p>Em casos urgentes, é possível pedir uma liminar (tutela de urgência), que costuma ser analisada rapidamente, e o paciente com câncer tem prioridade de tramitação. O prazo exato depende do tribunal e da documentação. Não prometemos resultados — garantimos dedicação, agilidade e transparência em cada etapa.</p></div></div></div>
+      <div class="qa reveal"><button aria-expanded="false">Um familiar pode cuidar de tudo pelo paciente?<span class="pm">+</span></button><div class="ans"><div><p>Sim. Sabemos que o paciente muitas vezes está em tratamento. Um familiar pode fazer o primeiro contato, reunir documentos e acompanhar o caso; a procuração é assinada pelo paciente (ou por seu representante legal), inclusive de forma digital.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA / CONTATO ============ -->
+<section class="section cta" id="contato">
+  <div class="container">
+    <div class="reveal">
+      <span class="script">Você tem <span class="y">direitos.</span><br>Conte com a gente!</span>
+      <p>Conte o que está acontecendo. Nossa equipe analisa a situação com prioridade e explica, com clareza, os caminhos possíveis para garantir o tratamento e os seus direitos.</p>
+      <div class="contacts">
+        <!-- CONFIG: ajuste telefone, e-mail e endereço -->
+        <a href="#" data-wa="Olá! Vim pela página de Direitos do Paciente com Câncer."><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg><span>(62) 9 0000-0000</span></a>
+        <a href="mailto:contato@medeirosesebba.adv.br"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-mail"/></svg>contato@medeirosesebba.adv.br</a>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-pin"/></svg>Goiânia – GO · Atendimento em todo o Brasil</div>
+      </div>
+    </div>
+
+    <form class="contact reveal" id="contactForm" novalidate>
+      <h3>Conte seu caso</h3>
+      <p class="hint">Ao enviar, abriremos o WhatsApp com sua mensagem pronta.</p>
+      <div class="row2">
+        <div class="field"><label for="fNome">Nome*</label><input id="fNome" required autocomplete="name" placeholder="Seu nome"></div>
+        <div class="field"><label for="fQuem">Você é*</label>
+          <select id="fQuem" required><option value="">Selecione…</option><option>O próprio paciente</option><option>Familiar do paciente</option><option>Cuidador / amigo</option></select>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label for="fAssunto">Assunto*</label>
+          <select id="fAssunto" required>
+            <option value="">Selecione…</option>
+            <option>Quimioterapia oral / medicamento negado</option>
+            <option>Imunoterapia / alto custo</option>
+            <option>Exame (PET-CT, genético) ou radioterapia</option>
+            <option>Cirurgia / reconstrução mamária</option>
+            <option>Demora ou negativa no SUS</option>
+            <option>Cancelamento ou reajuste do plano</option>
+            <option>INSS / FGTS / BPC</option>
+            <option>Isenção de imposto de renda</option>
+            <option>Questão trabalhista</option>
+            <option>Outro assunto</option>
+          </select>
+        </div>
+        <div class="field"><label for="fCidade">Cidade / UF</label><input id="fCidade" autocomplete="address-level2" placeholder="Ex.: Goiânia – GO"></div>
+      </div>
+      <div class="field"><label for="fMsg">Resumo do que aconteceu*</label><textarea id="fMsg" rows="4" required placeholder="Ex.: O plano negou a quimioterapia oral prescrita pelo oncologista…"></textarea></div>
+      <label class="consent"><input type="checkbox" id="fLgpd" required> Concordo com o uso dos meus dados para retorno do contato, conforme a LGPD. Evite enviar laudos ou dados médicos detalhados neste primeiro contato.</label>
+      <button class="btn btn-wa" type="submit"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg> Enviar pelo WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer>
+  <div class="container">
+    <div class="f-grid">
+      <div>
+        <span class="logo-text">
+          <span class="logo-mark">MS</span><span class="logo-sep"></span>
+          <span class="logo-name">MEDEIROS<br>&amp; SEBBA<small>ADVOGADOS</small></span>
+        </span>
+        <p class="disclaimer">Conteúdo de caráter exclusivamente informativo, em conformidade com o Código de Ética e Disciplina da OAB e o Provimento 205/2021. As informações não substituem a análise individual de um advogado nem a orientação do seu médico, e não constituem promessa de resultado. Revisão legal: outubro de 2026.</p>
+      </div>
+      <div>
+        <h4>Nesta página</h4>
+        <ul>
+          <li><a href="#direitos">Seus direitos</a></li>
+          <li><a href="#prazos">Prazos da lei</a></li>
+          <li><a href="#avaliacao">Avalie seu caso</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#duvidas">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Canais oficiais</h4>
+        <ul>
+          <li><a href="https://www.gov.br/inca" target="_blank" rel="noopener">INCA — gov.br/inca</a></li>
+          <li>Disque ANS: 0800 701 9656</li>
+          <li>Ouvidoria do SUS: 136</li>
+          <li>INSS: 135 · <a href="https://meu.inss.gov.br" target="_blank" rel="noopener">Meu INSS</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#" data-wa="Olá! Vim pela página de Direitos do Paciente com Câncer.">WhatsApp</a></li>
+          <li><a href="mailto:contato@medeirosesebba.adv.br">E-mail</a></li>
+          <li>Goiânia – GO</li>
+          <li>Seg. a sex. · 8h às 18h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© <span id="year"></span> Medeiros &amp; Sebba Advogados. Todos os direitos reservados.</span>
+      <span>Juntos pelo direito de tratar com dignidade. 💜</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="#" data-wa="Olá! Vim pela página de Direitos do Paciente com Câncer e gostaria de uma orientação." aria-label="Fale conosco pelo WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#i-wa"/></svg></a>
+<div class="wa-bubble" id="waBubble">Precisa de ajuda com o tratamento? 💬</div>
+
+<!-- ============ ÍCONES (SVG sprite) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/><path d="M6 11h3l1.5-2 2 4 1.5-2H18"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6M12 2v3"/></symbol>
+  <symbol id="i-pill" viewBox="0 0 24 24"><rect x="5" y="3" width="10" height="4" rx="1"/><path d="M6 7h8v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"/><path d="M8 12h4"/><rect x="13" y="13" width="9" height="5" rx="2.5" transform="rotate(-40 17.5 15.5)"/></symbol>
+  <symbol id="i-dna" viewBox="0 0 24 24"><path d="M7 3c0 6 10 6 10 12s-10 0-10 6M17 3c0 6-10 6-10 12s10 0 10 6"/><path d="M8.5 7h7M8.5 17h7M10 12h4"/></symbol>
+  <symbol id="i-ribbon" viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 0-4 4c0 3 4 7 4 7s4-4 4-7a4 4 0 0 0-4-4z"/><path d="M10 13l-4 8 3-1 1.5 2.5L13 15M14 13l4 8-3-1-1.5 2.5"/></symbol>
+  <symbol id="i-coin2" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></symbol>
+  <symbol id="i-tax" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v4h4"/><path d="M9 17l6-6"/><circle cx="9.5" cy="11.5" r="1.2"/><circle cx="14.5" cy="16.5" r="1.2"/></symbol>
+  <symbol id="i-scan" viewBox="0 0 24 24"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/><circle cx="12" cy="12" r="4"/><path d="M12 8v8M8 12h8" opacity=".5"/></symbol>
+  <symbol id="i-scalpel" viewBox="0 0 24 24"><path d="M3 21l8-8"/><path d="M11 13l8.5-8.5a2 2 0 0 1 2.8 2.8L13.8 15.8 11 13z"/><path d="M14 4l2 2"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9l6 6M15 9l-6 6"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M8 12h8M8 16h5"/></symbol>
+  <symbol id="i-hospital" viewBox="0 0 24 24"><path d="M4 21V7l8-4 8 4v14"/><path d="M10 10h4M12 8v4M9 21v-5h6v5"/></symbol>
+  <symbol id="i-bus" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 18v3M16 18v3"/><circle cx="8" cy="14.5" r="1"/><circle cx="16" cy="14.5" r="1"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 13h18"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 9.5h19"/><path d="M7 14.5h2M7 12.5v4" /></symbol>
+  <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M4 7h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h11v3"/><path d="M16 13.5h4"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></symbol>
+  <symbol id="i-house" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16l1.5-6A2 2 0 0 1 8.4 8.5h7.2a2 2 0 0 1 1.9 1.5L19 16"/><rect x="3" y="14" width="18" height="4" rx="1.5"/><circle cx="7" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M7 21h10M5 7h14M12 5l-7 2M12 5l7 2"/><path d="M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+</svg>
+
+<script>
+/* ============ CONFIG — ajuste aqui ============ */
+const CONFIG = {
+  whatsapp: '5562900000000',   // DDI + DDD + número, só dígitos
+};
+
+(function(){
+  const waLink = (msg) => 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(msg);
+
+  document.querySelectorAll('[data-wa]').forEach(a => {
+    a.href = waLink(a.dataset.wa);
+    a.target = '_blank'; a.rel = 'noopener';
+  });
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Menu mobile
+  const nav = document.getElementById('mainNav'), mb = document.getElementById('menuBtn');
+  mb.addEventListener('click', () => { const o = nav.classList.toggle('open'); mb.setAttribute('aria-expanded', o); });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { nav.classList.remove('open'); mb.setAttribute('aria-expanded', false); }));
+
+  // Reveal ao rolar
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }), {threshold:.12});
+  document.querySelectorAll('.reveal').forEach((el,i) => { el.style.transitionDelay = (i%3)*80 + 'ms'; io.observe(el); });
+
+  // Filtro de situações
+  const tabs = document.querySelectorAll('.tab');
+  tabs.forEach(t => t.addEventListener('click', () => {
+    tabs.forEach(x => x.setAttribute('aria-selected', x === t));
+    const f = t.dataset.filter;
+    document.querySelectorAll('.case').forEach(c => c.hidden = !(f === 'all' || c.dataset.cat === f));
+  }));
+
+  // FAQ
+  document.querySelectorAll('.qa button').forEach(b => b.addEventListener('click', () => {
+    const open = b.getAttribute('aria-expanded') === 'true';
+    document.querySelectorAll('.qa button').forEach(x => x.setAttribute('aria-expanded', 'false'));
+    b.setAttribute('aria-expanded', String(!open));
+  }));
+
+  // Checklist de documentos
+  const boxes = document.querySelectorAll('#checklist input'), ring = document.getElementById('docRing'), pct = document.getElementById('docPct');
+  const upd = () => { const p = Math.round([...boxes].filter(b => b.checked).length / boxes.length * 100); ring.style.setProperty('--p', p); pct.textContent = p + '%'; };
+  boxes.forEach(b => b.addEventListener('change', upd));
+
+  // Descobridor de benefícios
+  const chips = document.querySelectorAll('#chips .chip'), bens = document.querySelectorAll('#benefits .ben'), wrap = document.getElementById('benefits'), count = document.getElementById('finderCount');
+  chips.forEach(c => c.addEventListener('click', () => {
+    c.setAttribute('aria-pressed', c.getAttribute('aria-pressed') !== 'true');
+    const sel = [...chips].filter(x => x.getAttribute('aria-pressed') === 'true').map(x => x.dataset.tag);
+    let n = 0;
+    bens.forEach(b => { const m = sel.some(t => b.dataset.tags.split(' ').includes(t)); b.classList.toggle('match', m); if (m) n++; });
+    wrap.classList.toggle('filtered', sel.length > 0);
+    count.innerHTML = sel.length ? '<span>' + n + '</span> ' + (n === 1 ? 'benefício pode' : 'benefícios podem') + ' se aplicar ao seu caso.' : 'Selecione uma ou mais opções acima.';
+  }));
+
+  // ===== Avaliador "Entender meu caso em 1 minuto" =====
+  const steps = document.querySelectorAll('.quiz-step'), bar = document.getElementById('qBar');
+  const back = document.getElementById('qBack'), reset = document.getElementById('qReset');
+  const ans = {}; let cur = 1;
+  const labels = {
+    problema:{quimio:'plano negou medicamento/quimioterapia',exame:'plano negou exame, cirurgia ou radioterapia',sus:'demora ou negativa no SUS',contrato:'cancelamento ou reajuste do plano',beneficio:'INSS, FGTS ou imposto de renda',trabalho:'problema no trabalho'},
+    fase:{suspeita:'investigando o diagnóstico',aguardando:'diagnosticado, aguardando iniciar',tratando:'em tratamento',concluido:'tratamento concluído / acompanhamento'},
+    docs:{ambos:'tenho relatório médico e negativa',relatorio:'tenho só o relatório médico',negativa:'tenho só a negativa/protocolo',nenhum:'ainda sem documentos'}
+  };
+  const info = {
+    quimio:{d:'A Lei 9.656/98 prevê cobertura de antineoplásicos orais e dos remédios para efeitos adversos. Fora do rol, valem os critérios do STF (ADI 7.265).',t:['Peça ao oncologista um relatório explicando por que esse medicamento é indicado e quais tratamentos já foram feitos.','Confirme se o medicamento tem registro na Anvisa para a indicação.']},
+    exame:{d:'Exames, cirurgias e radioterapia previstos no rol devem ser autorizados; procedimentos de alta complexidade têm prazo máximo de 21 dias úteis (ANS).',t:['Peça ao médico a justificativa técnica do exame ou da técnica indicada.','Anote a data do pedido para controlar o prazo da ANS.']},
+    sus:{d:'No SUS, os exames de confirmação devem ocorrer em até 30 dias e o tratamento deve começar em até 60 dias após o laudo patológico (Lei 12.732/2012).',t:['Guarde a data do laudo anatomopatológico — é dela que conta o prazo de 60 dias.','Registre reclamação na Ouvidoria do SUS (136) e peça o número.']},
+    contrato:{d:'Plano individual só pode ser cancelado por fraude ou inadimplência acima de 60 dias, com aviso prévio. Em plano coletivo, o STJ garante a continuidade do tratamento até a alta (Tema 1.082).',t:['Guarde a notificação de cancelamento ou o boleto com o reajuste.','Continue pagando as mensalidades enquanto o caso é analisado.']},
+    beneficio:{d:'Câncer permite sacar o FGTS, dispensa carência no INSS e garante isenção de IR para aposentados e pensionistas — inclusive com restituição de até 5 anos.',t:['Separe o laudo anatomopatológico e um atestado com CID e estágio da doença.','Reúna extratos do INSS ou informes de rendimentos dos últimos 5 anos.']},
+    trabalho:{d:'A demissão de empregado com doença grave que gere estigma pode ser considerada discriminatória (Súmula 443 do TST), conforme o caso.',t:['Guarde o termo de rescisão, atestados e comunicações com a empresa.','Anote datas: diagnóstico, afastamentos e demissão.']}
+  };
+  function go(n){
+    cur = n;
+    steps.forEach(s => s.classList.toggle('active', +s.dataset.step === n));
+    bar.style.width = Math.min(n,3)/3*100 + '%';
+    back.style.visibility = (n > 1 && n < 4) ? 'visible' : 'hidden';
+    reset.style.display = n === 4 ? 'inline-flex' : 'none';
+  }
+  function result(){
+    const p = info[ans.problema];
+    const urgent = (ans.fase === 'aguardando' || ans.fase === 'tratando' || ans.fase === 'suspeita') && ans.problema !== 'beneficio' && ans.problema !== 'trabalho';
+    const list = [...p.t];
+    if (ans.docs === 'relatorio' || ans.docs === 'nenhum') list.unshift('Solicite a negativa <b>por escrito</b>, com o motivo e o número de protocolo.');
+    if (ans.docs === 'negativa' || ans.docs === 'nenhum') list.unshift('Peça ao seu médico um <b>relatório detalhado</b> com CID, estadiamento e urgência.');
+    if (ans.problema === 'quimio' || ans.problema === 'exame' || ans.problema === 'contrato') list.push('Registre reclamação na ANS (0800 701 9656) e guarde o número.');
+    if (ans.fase === 'concluido' && ans.problema === 'beneficio') list.push('Mesmo após a cura, a isenção de IR continua valendo para aposentados e pensionistas (Súmula 627 do STJ).');
+    document.getElementById('qResult').innerHTML =
+      '<h4>' + (urgent ? '⚠️ Seu caso pede atenção rápida' : '✅ Seus próximos passos') + '</h4>' +
+      '<p>' + p.d + '</p>' +
+      (urgent ? '<p style="margin-top:8px"><b>No câncer, tempo é saúde:</b> quando há risco, pode ser cabível pedido de liminar com tramitação prioritária.</p>' : '') +
+      '<ul>' + list.map(t => '<li>' + t + '</li>').join('') + '</ul>';
+    const msg = 'Olá! Fiz a avaliação na página de Direitos do Paciente com Câncer.\n• Situação: ' + labels.problema[ans.problema] + '\n• Fase: ' + labels.fase[ans.fase] + '\n• Documentos: ' + labels.docs[ans.docs] + '\nGostaria de uma análise do meu caso.';
+    document.getElementById('qWa').href = waLink(msg);
+  }
+  document.querySelectorAll('.opts').forEach(g => g.querySelectorAll('.opt').forEach(o => o.addEventListener('click', () => {
+    g.querySelectorAll('.opt').forEach(x => x.classList.remove('sel')); o.classList.add('sel');
+    ans[g.dataset.key] = o.dataset.v;
+    setTimeout(() => { if (cur === 3){ result(); go(4);} else go(cur + 1); }, 260);
+  })));
+  back.addEventListener('click', () => go(Math.max(1, cur - 1)));
+  reset.addEventListener('click', () => { document.querySelectorAll('.opt.sel').forEach(o => o.classList.remove('sel')); go(1); });
+
+  // Formulário → WhatsApp
+  document.getElementById('contactForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const f = e.target, nome = f.fNome.value.trim(), quem = f.fQuem.value, ass = f.fAssunto.value, msg = f.fMsg.value.trim();
+    if (!nome || !quem || !ass || !msg || !f.fLgpd.checked){
+      [f.fNome, f.fQuem, f.fAssunto, f.fMsg].forEach(el => el.style.borderColor = el.value.trim() ? '' : 'var(--red)');
+      if (!f.fLgpd.checked) f.fLgpd.parentNode.style.color = 'var(--red)';
+      return;
+    }
+    const txt = 'Olá! Meu nome é ' + nome + ' (' + quem.toLowerCase() + ')' + (f.fCidade.value ? ', de ' + f.fCidade.value : '') + '.\nAssunto: ' + ass + '\n' + msg;
+    window.open(waLink(txt), '_blank', 'noopener');
+  });
+
+  // Balão do WhatsApp
+  const bubble = document.getElementById('waBubble');
+  setTimeout(() => bubble.classList.add('show'), 4000);
+  setTimeout(() => bubble.classList.remove('show'), 11000);
+})();
+</script>
+</body>
+</html>
