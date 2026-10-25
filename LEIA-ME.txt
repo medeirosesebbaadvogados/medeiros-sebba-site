@@ -1,0 +1,16 @@
+MEDEIROS & SEBBA ADVOGADOS — ESTRUTURA DO SITE (atualizado em 24/10/2026)
+
+C:\sites\MedeirosSebba\
+  index.html                       Página inicial
+  asset\                           CSS, JS, monograma e ícones (o logo-medeiros-sebba.png atual continua o mesmo)
+  escritorio\index.html            Menu "Escritório"
+  plano-juridico\index.html        Menu "Plano Jurídico" (com "Últimas postagens")
+  postagens\                       Artigos do site (veja postagens\LEIA-ME.txt)
+  atuacao\saude\plano de saude\    Planos de saúde        (index.html + assets)
+  atuacao\saude\cancer\            Pacientes com câncer   (index.htm  + assets)
+  atuacao\saude\medicamento\       Medicamentos alto custo(index.html + assets)
+  atuacao\saude\autismo\           Autismo — NÃO incluída neste pacote (mantenha a sua index.html)
+  atuacao\digital\                 Direito Digital        (index.html + assets)
+
+Todas as páginas já apontam umas para as outras com caminhos relativos.
+Basta extrair por cima da pasta C:\sites\MedeirosSebba\.

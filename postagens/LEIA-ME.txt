@@ -1,0 +1,15 @@
+PASTA DE POSTAGENS — Medeiros & Sebba Advogados
+
+Estrutura:
+  postagens/
+    postagens.js        -> lista das postagens (título, resumo, categoria, data, imagem)
+    _modelo/index.html  -> modelo de artigo (copie esta pasta para criar um novo)
+    nome-do-artigo/     -> cada artigo em sua própria pasta
+        index.html
+        capa.jpg        (opcional)
+
+Passo a passo:
+  1. Copie a pasta "_modelo" e renomeie (minúsculas, sem acentos, sem espaços).
+  2. Edite o index.html com o conteúdo do artigo.
+  3. Abra postagens.js e acrescente o bloco do novo artigo.
+  4. Pronto: ele aparece em "Últimas postagens" na página Plano Jurídico.
