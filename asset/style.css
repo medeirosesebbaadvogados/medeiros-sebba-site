@@ -52,7 +52,7 @@
 .areas-head h2{font:600 clamp(32px,3.4vw,44px)/1.2 var(--serif);color:var(--navy);margin:20px 0 0;letter-spacing:-.02em}
 .areas-head h2 em{color:#a9864c;font-weight:500}
 .areas-head p{max-width:420px;color:#6b7581;font-size:13px;line-height:1.9;margin:0}
-.areas-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:16px}
+.areas-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .area-box{border:1px solid #e7e4dc;background:#fbfaf7;padding:28px;display:flex;flex-direction:column;transition:border-color .25s,transform .25s}
 .area-box:hover{border-color:#c7a66a;transform:translateY(-3px)}
 .area-box .area-kicker{font-size:9px;letter-spacing:.17em;font-weight:700;color:#a07d45}
@@ -223,3 +223,8 @@
 .footer-links{display:flex;flex-wrap:wrap;gap:8px 22px;padding-top:4px;padding-bottom:22px;font-size:10px}
 .footer-links a{color:#c9d1dc}.footer-links a:hover{color:var(--gold-light)}
 .footer-links b{color:#77869a;font-weight:600;letter-spacing:.12em;font-size:9px;margin-right:4px}
+
+/* Caixa Autismo e PcD (home) */
+.area-box.tea{position:relative;background:#fff;border-color:#e7e4dc}
+.area-box.tea:before{content:"";position:absolute;left:-1px;right:-1px;top:-1px;height:4px;background:linear-gradient(90deg,#149be8 0 25%,#ffbd05 25% 50%,#f42b38 50% 75%,#139b59 75%)}
+.area-box.tea .area-kicker{color:#0b5fb8}
